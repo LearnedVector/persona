@@ -17,7 +17,7 @@ padded_input = pad_sequences(input_seqs, MAX_SEQ_LEN)
 one_hot_input = one_hot_encode(padded_input, input_word_model, MAX_SEQ_LEN)
 one_hot_output = one_hot_encode([intent], output_word_model, len(intent))[0]
 
-from persona.model.intent import IntentModel
+from persona.intent.model import IntentModel
 
 model = IntentModel(one_hot_input, one_hot_output, input_word_model.n_words, output_word_model.n_words)
 model.train(summary=True)

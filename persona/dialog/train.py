@@ -20,7 +20,7 @@ one_hot_output = one_hot_encode(padded_output, output_word_model, MAX_SEQ_LEN)
 
 one_hot_target = one_hot_encode_target(padded_output, output_word_model, MAX_SEQ_LEN)
 
-from persona.model.dialog import DialogModel
+from persona.dialog.model import DialogModel
 
 model = DialogModel(one_hot_input, one_hot_output, one_hot_target)
 model.encoder(input_word_model.n_words)
