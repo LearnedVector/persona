@@ -19,7 +19,8 @@ one_hot_output = one_hot_encode([intent], output_word_model, len(intent))[0]
 
 from persona.intent.model import IntentModel
 
-model = IntentModel(one_hot_input, one_hot_output, input_word_model.n_words, output_word_model.n_words)
+model = IntentModel("onehot")
+model = model(one_hot_input, one_hot_output, input_word_model.n_words, output_word_model.n_words)
 model.train(summary=True)
 
 from persona.preprocess import pad_sequence
