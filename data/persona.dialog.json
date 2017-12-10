@@ -1,0 +1,3218 @@
+[
+    {
+        "output": "{skill} failed because of {error}.",
+        "input": ":why.did.skill.fail: why did {skill} fail to load"
+    },
+    {
+        "output": "{skill} failed because of {error}.",
+        "input": ":why.did.skill.fail: why did {skill} fail"
+    },
+    {
+        "output": "{skill} failed because of {error}.",
+        "input": ":why.did.skill.fail: what happened to {skill}"
+    },
+    {
+        "output": "{skill} failed because of {error}.",
+        "input": ":why.did.skill.fail: reason for {skill} crash"
+    },
+    {
+        "output": "{skill} failed because of {error}.",
+        "input": ":why.did.skill.fail: explain {skill} crash"
+    },
+    {
+        "output": "{skill} failed because of {error}.",
+        "input": ":why.did.skill.fail: explain {skill} error"
+    },
+    {
+        "output": "{skill} failed because of {error}.",
+        "input": ":why.did.skill.fail: tell me why {skill} failed"
+    },
+    {
+        "output": "In the next few hours, it will be {condition} in {diff_location}, with a high of {temp_max} and a low of {temp_min}",
+        "input": ":weather.next.hour: when will it stop raining"
+    },
+    {
+        "output": "In the next few hours, it will be {condition} in {diff_location}, with a high of {temp_max} and a low of {temp_min}",
+        "input": ":weather.next.hour: when will it stop snowing"
+    },
+    {
+        "output": "In the next few hours, it will be {condition} in {diff_location}, with a high of {temp_max} and a low of {temp_min}",
+        "input": ":weather.next.hour: when will it stop sleeting"
+    },
+    {
+        "output": "In the next few hours, it will be {condition} in {diff_location}, with a high of {temp_max} and a low of {temp_min}",
+        "input": ":weather.next.hour: when will it stop showering"
+    },
+    {
+        "output": "In the next few hours, it will be {condition} in {diff_location}, with a high of {temp_max} and a low of {temp_min}",
+        "input": ":weather.next.hour: when will it stop pouring"
+    },
+    {
+        "output": "In the next few hours, it will be {condition} in {diff_location}, with a high of {temp_max} and a low of {temp_min}",
+        "input": ":weather.next.hour: when will the sun come out"
+    },
+    {
+        "output": "In the next few hours, it will be {condition} in {diff_location}, with a high of {temp_max} and a low of {temp_min}",
+        "input": ":weather.next.hour: what ' s the weather in a few hours"
+    },
+    {
+        "output": "In the next few hours, it will be {condition} in {diff_location}, with a high of {temp_max} and a low of {temp_min}",
+        "input": ":weather.next.hour: what ' s the forecast in a few hours"
+    },
+    {
+        "output": "In the next few hours, it will be {condition} in {diff_location}, with a high of {temp_max} and a low of {temp_min}",
+        "input": ":weather.next.hour: what ' s the weather for tonight"
+    },
+    {
+        "output": "In the next few hours, it will be {condition} in {diff_location}, with a high of {temp_max} and a low of {temp_min}",
+        "input": ":weather.next.hour: what ' s the forecast for tonight"
+    },
+    {
+        "output": "In the next few hours, it will be {condition} in {diff_location}, with a high of {temp_max} and a low of {temp_min}",
+        "input": ":weather.next.hour: what ' s the weather for later today"
+    },
+    {
+        "output": "In the next few hours, it will be {condition} in {diff_location}, with a high of {temp_max} and a low of {temp_min}",
+        "input": ":weather.next.hour: what ' s the forecast for later today"
+    },
+    {
+        "output": "In the next few hours, it will be {condition} in {diff_location}, with a high of {temp_max} and a low of {temp_min}",
+        "input": ":weather.next.hour: what ' s the weather for later tonight"
+    },
+    {
+        "output": "In the next few hours, it will be {condition} in {diff_location}, with a high of {temp_max} and a low of {temp_min}",
+        "input": ":weather.next.hour: what ' s the forecast for later tonight"
+    },
+    {
+        "output": "In the next few hours, it will be {condition} in {diff_location}, with a high of {temp_max} and a low of {temp_min}",
+        "input": ":weather.next.hour: what will the weather be later"
+    },
+    {
+        "output": "In the next few hours, it will be {condition} in {diff_location}, with a high of {temp_max} and a low of {temp_min}",
+        "input": ":weather.next.hour: will it rain tonight"
+    },
+    {
+        "output": "In the next few hours, it will be {condition} in {diff_location}, with a high of {temp_max} and a low of {temp_min}",
+        "input": ":weather.next.hour: will it rain later today"
+    },
+    {
+        "output": "In the next few hours, it will be {condition} in {diff_location}, with a high of {temp_max} and a low of {temp_min}",
+        "input": ":weather.next.hour: will it rain"
+    },
+    {
+        "output": "In the next few hours, it will be {condition} in {diff_location}, with a high of {temp_max} and a low of {temp_min}",
+        "input": ":weather.next.hour: will it be sunny another day"
+    },
+    {
+        "output": "In the next few hours, it will be {condition} in {diff_location}, with a high of {temp_max} and a low of {temp_min}",
+        "input": ":weather.next.hour: will the sun come out"
+    },
+    {
+        "output": "In the next few hours, it will be {condition} in {diff_location}, with a high of {temp_max} and a low of {temp_min}",
+        "input": ":weather.next.hour: will it be raining tonight"
+    },
+    {
+        "output": "Tomorrow, it will be {condition} in {diff_location}, with a high of {temp_max} and a low of {temp_min}",
+        "input": ":weather.next.day: what ' s the forecast for tomorrow"
+    },
+    {
+        "output": "Tomorrow, it will be {condition} in {diff_location}, with a high of {temp_max} and a low of {temp_min}",
+        "input": ":weather.next.day: what ' s the forecast for next week"
+    },
+    {
+        "output": "Tomorrow, it will be {condition} in {diff_location}, with a high of {temp_max} and a low of {temp_min}",
+        "input": ":weather.next.day: what ' s the weather for tomorrow"
+    },
+    {
+        "output": "Tomorrow, it will be {condition} in {diff_location}, with a high of {temp_max} and a low of {temp_min}",
+        "input": ":weather.next.day: what ' s the weather for next week"
+    },
+    {
+        "output": "Tomorrow, it will be {condition} in {diff_location}, with a high of {temp_max} and a low of {temp_min}",
+        "input": ":weather.next.day: will it rain tomorrow"
+    },
+    {
+        "output": "Tomorrow, it will be {condition} in {diff_location}, with a high of {temp_max} and a low of {temp_min}",
+        "input": ":weather.next.day: will it rain next week"
+    },
+    {
+        "output": "Tomorrow, it will be {condition} in {diff_location}, with a high of {temp_max} and a low of {temp_min}",
+        "input": ":weather.next.day: will it be sunny tomorrow"
+    },
+    {
+        "output": "Tomorrow, it will be {condition} in {diff_location}, with a high of {temp_max} and a low of {temp_min}",
+        "input": ":weather.next.day: will it be raining tomorrow"
+    },
+    {
+        "output": "Tomorrow, it will be {condition} in {diff_location}, with a high of {temp_max} and a low of {temp_min}",
+        "input": ":weather.next.day: will it be rainy tomorrow"
+    },
+    {
+        "output": "Tomorrow, it will be {condition} in {diff_location}, with a high of {temp_max} and a low of {temp_min}",
+        "input": ":weather.next.day: will it be sunny next week"
+    },
+    {
+        "output": "Tomorrow, it will be {condition} in {diff_location}, with a high of {temp_max} and a low of {temp_min}",
+        "input": ":weather.next.day: will it be raining next week"
+    },
+    {
+        "output": "Tomorrow, it will be {condition} in {diff_location}, with a high of {temp_max} and a low of {temp_min}",
+        "input": ":weather.next.day: will it be rainy next week"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: weather right now in {location}"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: weather in {location}"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: weather right now"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: weather"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: what ' s the weather like right now in {location}"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: what ' s the weather right now in {location}"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: what ' s the weather like in {location}"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: what ' s the weather in {location}"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: what ' s the weather like right now"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: what ' s the weather right now"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: what ' s the weather like"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: what ' s the weather"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: what does it feel like outside"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: what ' s the temperature outside"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: is it currently hot outside"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: is it hot outside"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: is it currently sunny outside"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: is it currently rainy outside"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: is it currently raining outside"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: is it currently sleeting outside"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: is it currently wet outside"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: is it sunny outside"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: is it rainy outside"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: is it raining outside"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: is it sleeting outside"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: is it wet outside"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: is it currently hot in {location}"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: is it currently hot"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: is it hot in {location}"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: is it hot"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: is it currently sunny in {location}"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: is it currently sunny"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: is it currently rainy in {location}"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: is it currently rainy"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: is it currently raining in {location}"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: is it currently raining"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: is it currently sleeting in {location}"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: is it currently sleeting"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: is it currently wet in {location}"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: is it currently wet"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: is it sunny in {location}"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: is it sunny"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: is it rainy in {location}"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: is it rainy"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: is it raining in {location}"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: is it raining"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: is it sleeting in {location}"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: is it sleeting"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: is it wet in {location}"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: is it wet"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: what ' s the forecast for {location}"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: what ' s the temperature for {location}"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: what ' s the forecast in {location}"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: what ' s the temperature in {location}"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: what ' s the forecast"
+    },
+    {
+        "output": "It's currently {condition} and {temp_current} degrees {scale} in {diff_location}. Today's forecast is for a high of {temp_max} and a low of {temp_min}.",
+        "input": ":weather.current: what ' s the temperature"
+    },
+    {
+        "output": "{equation} is {answer}.",
+        "input": ":math: {num} and {num}"
+    },
+    {
+        "output": "{equation} is {answer}.",
+        "input": ":math: log"
+    },
+    {
+        "output": "{equation} is {answer}.",
+        "input": ":math: log 2"
+    },
+    {
+        "output": "{equation} is {answer}.",
+        "input": ":math: log 10"
+    },
+    {
+        "output": "{equation} is {answer}.",
+        "input": ":math: logarithm"
+    },
+    {
+        "output": "{equation} is {answer}.",
+        "input": ":math: what ' s the answer to {equation}"
+    },
+    {
+        "output": "{equation} is {answer}.",
+        "input": ":math: what is the answer to {equation}"
+    },
+    {
+        "output": "{equation} is {answer}.",
+        "input": ":math: find the answer to {equation}"
+    },
+    {
+        "output": "{equation} is {answer}.",
+        "input": ":math: what ' s {equation}"
+    },
+    {
+        "output": "{equation} is {answer}.",
+        "input": ":math: what is {equation}"
+    },
+    {
+        "output": "{equation} is {answer}.",
+        "input": ":math: find {equation}"
+    },
+    {
+        "output": "{equation} is {answer}.",
+        "input": ":math: answer to {equation}"
+    },
+    {
+        "output": "{equation} is {answer}.",
+        "input": ":math: solution to {equation}"
+    },
+    {
+        "output": "{equation} is {answer}.",
+        "input": ":math: answer of {equation}"
+    },
+    {
+        "output": "{equation} is {answer}.",
+        "input": ":math: solution of {equation}"
+    },
+    {
+        "output": "Stopped Pandora.",
+        "input": ":pandora.stop: stop pandora"
+    },
+    {
+        "output": "Stopped Pandora.",
+        "input": ":pandora.stop: stop playing pandora"
+    },
+    {
+        "output": "Playing {song} by {artist}.",
+        "input": ":pandora.play: pandora"
+    },
+    {
+        "output": "Playing {song} by {artist}.",
+        "input": ":pandora.play: pandora station {id}"
+    },
+    {
+        "output": "Playing {song} by {artist}.",
+        "input": ":pandora.play: pandora on station {id}"
+    },
+    {
+        "output": "Playing {song} by {artist}.",
+        "input": ":pandora.play: play station {id} on pandora"
+    },
+    {
+        "output": "Playing {song} by {artist}.",
+        "input": ":pandora.play: play pandora"
+    },
+    {
+        "output": "Playing {song} by {artist}.",
+        "input": ":pandora.play: play some pandora"
+    },
+    {
+        "output": "Playing {song} by {artist}.",
+        "input": ":pandora.play: play pandora station {id}"
+    },
+    {
+        "output": "Playing {song} by {artist}.",
+        "input": ":pandora.play: play pandora on station {id}"
+    },
+    {
+        "output": "Playing {song} by {artist}.",
+        "input": ":pandora.play: play {song} on pandora"
+    },
+    {
+        "output": "Skipping.",
+        "input": ":pandora.next: next pandora song"
+    },
+    {
+        "output": "Skipping.",
+        "input": ":pandora.next: play next song on pandora"
+    },
+    {
+        "output": "Skipping.",
+        "input": ":pandora.next: skip pandora song"
+    },
+    {
+        "output": "Skipping.",
+        "input": ":pandora.next: go to next pandora song"
+    },
+    {
+        "output": "Skipping.",
+        "input": ":pandora.next: goto next pandora song"
+    },
+    {
+        "output": "Skipping.",
+        "input": ":pandora.next: skip pandora"
+    },
+    {
+        "output": "Skipping.",
+        "input": ":pandora.next: next pandora"
+    },
+    {
+        "output": "Skipping.",
+        "input": ":pandora.next: skip this pandora song"
+    },
+    {
+        "output": "Skipping.",
+        "input": ":pandora.next: skip the pandora song"
+    },
+    {
+        "output": "Skipping.",
+        "input": ":pandora.next: go to the next pandora song"
+    },
+    {
+        "output": "Here's the intent data for {skill}: {intent_data}",
+        "input": ":how.do.i.activate: how do i activate {skill}"
+    },
+    {
+        "output": "Here's the intent data for {skill}: {intent_data}",
+        "input": ":how.do.i.activate: what do i do to activate {skill}"
+    },
+    {
+        "output": "Here's the intent data for {skill}: {intent_data}",
+        "input": ":how.do.i.activate: how do i launch {skill}"
+    },
+    {
+        "output": "Here's the intent data for {skill}: {intent_data}",
+        "input": ":how.do.i.activate: how do i start {skill}"
+    },
+    {
+        "output": "Here's the intent data for {skill}: {intent_data}",
+        "input": ":how.do.i.activate: what do i do to launch {skill}"
+    },
+    {
+        "output": "Here's the intent data for {skill}: {intent_data}",
+        "input": ":how.do.i.activate: what do i do to start {skill}"
+    },
+    {
+        "output": "It is currently {time}.",
+        "input": ":time: what time is it"
+    },
+    {
+        "output": "It is currently {time}.",
+        "input": ":time: what ' s the time"
+    },
+    {
+        "output": "It is currently {time}.",
+        "input": ":time: what time is it in {place}"
+    },
+    {
+        "output": "It is currently {time}.",
+        "input": ":time: what ' s the time in {place}"
+    },
+    {
+        "output": "It is currently {time}.",
+        "input": ":time: what time is it right now"
+    },
+    {
+        "output": "It is currently {time}.",
+        "input": ":time: what ' s the time right now"
+    },
+    {
+        "output": "It is currently {time}.",
+        "input": ":time: what time is it in {place} right now"
+    },
+    {
+        "output": "It is currently {time}.",
+        "input": ":time: what ' s the time in {place} right now"
+    },
+    {
+        "output": "It is currently {time}.",
+        "input": ":time: what time is it right now in {place}"
+    },
+    {
+        "output": "It is currently {time}.",
+        "input": ":time: what ' s the time right now in {place}"
+    },
+    {
+        "output": "It is currently {time}.",
+        "input": ":time: what time"
+    },
+    {
+        "output": "It is currently {time}.",
+        "input": ":time: what time in {place}"
+    },
+    {
+        "output": "It is currently {time}.",
+        "input": ":time: time"
+    },
+    {
+        "output": "It is currently {time}.",
+        "input": ":time: time in {place}"
+    },
+    {
+        "output": "It is currently {time}.",
+        "input": ":time: is it late"
+    },
+    {
+        "output": "It is currently {time}.",
+        "input": ":time: is it early"
+    },
+    {
+        "output": "Today is the {day}{day_suffix} of {month}.",
+        "input": ":date: what day is it"
+    },
+    {
+        "output": "Today is the {day}{day_suffix} of {month}.",
+        "input": ":date: what ' s the date"
+    },
+    {
+        "output": "Today is the {day}{day_suffix} of {month}.",
+        "input": ":date: what day is it today"
+    },
+    {
+        "output": "Today is the {day}{day_suffix} of {month}.",
+        "input": ":date: can you tell me the date"
+    },
+    {
+        "output": "Today is the {day}{day_suffix} of {month}.",
+        "input": ":date: can you tell me what day it is"
+    },
+    {
+        "output": "Today is the {day}{day_suffix} of {month}.",
+        "input": ":date: is it {weekday}"
+    },
+    {
+        "output": "Today is the {day}{day_suffix} of {month}.",
+        "input": ":date: is today {weekday}"
+    },
+    {
+        "output": "Today is the {day}{day_suffix} of {month}.",
+        "input": ":date: what day is tomorrow"
+    },
+    {
+        "output": "The spelling of {word} is {spelling}.",
+        "input": ":spell: spell the word {word}"
+    },
+    {
+        "output": "The spelling of {word} is {spelling}.",
+        "input": ":spell: spell {word}"
+    },
+    {
+        "output": "The spelling of {word} is {spelling}.",
+        "input": ":spell: what ' s the spelling of {word}"
+    },
+    {
+        "output": "The spelling of {word} is {spelling}.",
+        "input": ":spell: how do you spell {word}"
+    },
+    {
+        "output": "I've removed {task} from your todo list.",
+        "input": ":remove: remove {task} from the todo"
+    },
+    {
+        "output": "I've removed {task} from your todo list.",
+        "input": ":remove: take off {task} from the todo"
+    },
+    {
+        "output": "I've removed {task} from your todo list.",
+        "input": ":remove: remove {task} from my todo"
+    },
+    {
+        "output": "I've removed {task} from your todo list.",
+        "input": ":remove: take off {task} from my todo"
+    },
+    {
+        "output": "I've removed {task} from your todo list.",
+        "input": ":remove: remove {task} from the todo list"
+    },
+    {
+        "output": "I've removed {task} from your todo list.",
+        "input": ":remove: take off {task} from the todo list"
+    },
+    {
+        "output": "I've removed {task} from your todo list.",
+        "input": ":remove: remove {task} from my todo list"
+    },
+    {
+        "output": "I've removed {task} from your todo list.",
+        "input": ":remove: take off {task} from my todo list"
+    },
+    {
+        "output": "I've removed all tasks from your todo list.",
+        "input": ":remove.all: clear my todo list"
+    },
+    {
+        "output": "I've removed all tasks from your todo list.",
+        "input": ":remove.all: erase my todo list"
+    },
+    {
+        "output": "I've removed all tasks from your todo list.",
+        "input": ":remove.all: clear the todo list"
+    },
+    {
+        "output": "I've removed all tasks from your todo list.",
+        "input": ":remove.all: clear todo list"
+    },
+    {
+        "output": "I've removed all tasks from your todo list.",
+        "input": ":remove.all: erase the todo list"
+    },
+    {
+        "output": "I've removed all tasks from your todo list.",
+        "input": ":remove.all: erase todo list"
+    },
+    {
+        "output": "I've removed all tasks from your todo list.",
+        "input": ":remove.all: clear my todo"
+    },
+    {
+        "output": "I've removed all tasks from your todo list.",
+        "input": ":remove.all: erase my todo"
+    },
+    {
+        "output": "I've removed all tasks from your todo list.",
+        "input": ":remove.all: clear the todo"
+    },
+    {
+        "output": "I've removed all tasks from your todo list.",
+        "input": ":remove.all: clear todo"
+    },
+    {
+        "output": "I've removed all tasks from your todo list.",
+        "input": ":remove.all: erase the todo"
+    },
+    {
+        "output": "I've removed all tasks from your todo list.",
+        "input": ":remove.all: erase todo"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: what ' s on my todo"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: what ' s on the todo"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: what ' s on my todo list"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: what ' s on my things to do"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: what ' s on my things to do today"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: what ' s on the todo list"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: what ' s on the things to do"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: what ' s on the things to do today"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show the things on my todo"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show me the things on my todo"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: list the things on my todo"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show what ' s on my todo"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show my todo"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show me what ' s on my todo"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show me my todo"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: list what ' s on my todo"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: list my todo"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show the things on the todo"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show me the things on the todo"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: list the things on the todo"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show what ' s on the todo"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show the todo"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show me what ' s on the todo"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show me the todo"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: list what ' s on the todo"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: list the todo"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show the things on my todo list"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show the things on my things to do"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show the things on my things to do today"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show me the things on my todo list"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show me the things on my things to do"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show me the things on my things to do today"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: list the things on my todo list"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: list the things on my things to do"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: list the things on my things to do today"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show what ' s on my todo list"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show what ' s on my things to do"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show what ' s on my things to do today"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show my todo list"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show my things to do"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show my things to do today"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show me what ' s on my todo list"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show me what ' s on my things to do"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show me what ' s on my things to do today"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show me my todo list"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show me my things to do"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show me my things to do today"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: list what ' s on my todo list"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: list what ' s on my things to do"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: list what ' s on my things to do today"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: list my todo list"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: list my things to do"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: list my things to do today"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show the things on the todo list"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show the things on the things to do"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show the things on the things to do today"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show me the things on the todo list"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show me the things on the things to do"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show me the things on the things to do today"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: list the things on the todo list"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: list the things on the things to do"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: list the things on the things to do today"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show what ' s on the todo list"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show what ' s on the things to do"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show what ' s on the things to do today"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show the todo list"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show the things to do"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show the things to do today"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show me what ' s on the todo list"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show me what ' s on the things to do"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show me what ' s on the things to do today"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show me the todo list"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show me the things to do"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: show me the things to do today"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: list what ' s on the todo list"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: list what ' s on the things to do"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: list what ' s on the things to do today"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: list the todo list"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: list the things to do"
+    },
+    {
+        "output": "The following are on your todo list: {tasks}",
+        "input": ":show: list the things to do today"
+    },
+    {
+        "output": "I've added {task} to the todo list.",
+        "input": ":add: remind me to {task}"
+    },
+    {
+        "output": "I've added {task} to the todo list.",
+        "input": ":add: don ' t let me forget to {task}"
+    },
+    {
+        "output": "I've added {task} to the todo list.",
+        "input": ":add: create a todo item to {task}"
+    },
+    {
+        "output": "I've added {task} to the todo list.",
+        "input": ":add: create a todo item for {task}"
+    },
+    {
+        "output": "I've added {task} to the todo list.",
+        "input": ":add: add an item to my todo list"
+    },
+    {
+        "output": "I've added {task} to the todo list.",
+        "input": ":add: add an item to my todo"
+    },
+    {
+        "output": "{name} is currently using {used_short}.",
+        "input": ":mem.usage.application: how much ram is {application} using"
+    },
+    {
+        "output": "{name} is currently using {used_short}.",
+        "input": ":mem.usage.application: how much mem is {application} using"
+    },
+    {
+        "output": "{name} is currently using {used_short}.",
+        "input": ":mem.usage.application: how much memory is {application} using"
+    },
+    {
+        "output": "{name} is currently using {used_short}.",
+        "input": ":mem.usage.application: ram of {application}"
+    },
+    {
+        "output": "{name} is currently using {used_short}.",
+        "input": ":mem.usage.application: mem of {application}"
+    },
+    {
+        "output": "{name} is currently using {used_short}.",
+        "input": ":mem.usage.application: memory of {application}"
+    },
+    {
+        "output": "The process using the most CPU is {name} with {percent}%.",
+        "input": ":cpu.max.process: what ' s using all the cpu"
+    },
+    {
+        "output": "The process using the most CPU is {name} with {percent}%.",
+        "input": ":cpu.max.process: what ' s using the cpu"
+    },
+    {
+        "output": "The process using the most CPU is {name} with {percent}%.",
+        "input": ":cpu.max.process: what program is using up the cpu"
+    },
+    {
+        "output": "The process using the most CPU is {name} with {percent}%.",
+        "input": ":cpu.max.process: what app is using up the cpu"
+    },
+    {
+        "output": "The process using the most CPU is {name} with {percent}%.",
+        "input": ":cpu.max.process: what application is using up the cpu"
+    },
+    {
+        "output": "The process using the most CPU is {name} with {percent}%.",
+        "input": ":cpu.max.process: what process is using up the cpu"
+    },
+    {
+        "output": "The process using the most CPU is {name} with {percent}%.",
+        "input": ":cpu.max.process: what program is using all the cpu"
+    },
+    {
+        "output": "The process using the most CPU is {name} with {percent}%.",
+        "input": ":cpu.max.process: what app is using all the cpu"
+    },
+    {
+        "output": "The process using the most CPU is {name} with {percent}%.",
+        "input": ":cpu.max.process: what application is using all the cpu"
+    },
+    {
+        "output": "The process using the most CPU is {name} with {percent}%.",
+        "input": ":cpu.max.process: what process is using all the cpu"
+    },
+    {
+        "output": "The process using the most CPU is {name} with {percent}%.",
+        "input": ":cpu.max.process: top cpu process"
+    },
+    {
+        "output": "The process using the most CPU is {name} with {percent}%.",
+        "input": ":cpu.max.process: max cpu process"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what ' s using all the ram"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what ' s using the ram"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what ' s using all the mem"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what ' s using all the memory"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what ' s using the mem"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what ' s using the memory"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what program is using up all the ram"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what app is using up all the ram"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what application is using up all the ram"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what process is using up all the ram"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what program is using all the ram"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what app is using all the ram"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what application is using all the ram"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what process is using all the ram"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what program is using up the ram"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what app is using up the ram"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what application is using up the ram"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what process is using up the ram"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what program is using the ram"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what app is using the ram"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what application is using the ram"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what process is using the ram"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what program is using up all the mem"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what program is using up all the memory"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what app is using up all the mem"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what app is using up all the memory"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what application is using up all the mem"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what application is using up all the memory"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what process is using up all the mem"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what process is using up all the memory"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what program is using all the mem"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what program is using all the memory"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what app is using all the mem"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what app is using all the memory"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what application is using all the mem"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what application is using all the memory"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what process is using all the mem"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what process is using all the memory"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what program is using up the mem"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what program is using up the memory"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what app is using up the mem"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what app is using up the memory"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what application is using up the mem"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what application is using up the memory"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what process is using up the mem"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what process is using up the memory"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what program is using the mem"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what program is using the memory"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what app is using the mem"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what app is using the memory"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what application is using the mem"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what application is using the memory"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what process is using the mem"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: what process is using the memory"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: app using top ram"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: program using top ram"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: application using top ram"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: app with top ram"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: program with top ram"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: application with top ram"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: app using max ram"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: app using most ram"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: program using max ram"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: program using most ram"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: application using max ram"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: application using most ram"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: app with max ram"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: app with most ram"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: program with max ram"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: program with most ram"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: application with max ram"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: application with most ram"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: app using top mem"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: app using top memory"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: program using top mem"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: program using top memory"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: application using top mem"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: application using top memory"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: app with top mem"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: app with top memory"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: program with top mem"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: program with top memory"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: application with top mem"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: application with top memory"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: app using max mem"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: app using max memory"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: app using most mem"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: app using most memory"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: program using max mem"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: program using max memory"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: program using most mem"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: program using most memory"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: application using max mem"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: application using max memory"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: application using most mem"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: application using most memory"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: app with max mem"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: app with max memory"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: app with most mem"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: app with most memory"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: program with max mem"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: program with max memory"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: program with most mem"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: program with most memory"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: application with max mem"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: application with max memory"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: application with most mem"
+    },
+    {
+        "output": "The process using the most RAM is {name} with {used_short}.",
+        "input": ":mem.max.process: application with most memory"
+    },
+    {
+        "output": "{used_short} of memory is used.",
+        "input": ":mem.used: total ram usage"
+    },
+    {
+        "output": "{used_short} of memory is used.",
+        "input": ":mem.used: amount of ram usage"
+    },
+    {
+        "output": "{used_short} of memory is used.",
+        "input": ":mem.used: ram usage"
+    },
+    {
+        "output": "{used_short} of memory is used.",
+        "input": ":mem.used: total mem usage"
+    },
+    {
+        "output": "{used_short} of memory is used.",
+        "input": ":mem.used: total memory usage"
+    },
+    {
+        "output": "{used_short} of memory is used.",
+        "input": ":mem.used: amount of mem usage"
+    },
+    {
+        "output": "{used_short} of memory is used.",
+        "input": ":mem.used: amount of memory usage"
+    },
+    {
+        "output": "{used_short} of memory is used.",
+        "input": ":mem.used: mem usage"
+    },
+    {
+        "output": "{used_short} of memory is used.",
+        "input": ":mem.used: memory usage"
+    },
+    {
+        "output": "{used_short} of memory is used.",
+        "input": ":mem.used: how much ram is being used"
+    },
+    {
+        "output": "{used_short} of memory is used.",
+        "input": ":mem.used: how much mem is being used"
+    },
+    {
+        "output": "{used_short} of memory is used.",
+        "input": ":mem.used: how much memory is being used"
+    },
+    {
+        "output": "{used_short} of memory is used.",
+        "input": ":mem.used: how much ram is used"
+    },
+    {
+        "output": "{used_short} of memory is used.",
+        "input": ":mem.used: how much mem is used"
+    },
+    {
+        "output": "{used_short} of memory is used.",
+        "input": ":mem.used: how much memory is used"
+    },
+    {
+        "output": "{total_short} of memory is installed.",
+        "input": ":mem.total: how much installed ram is there"
+    },
+    {
+        "output": "{total_short} of memory is installed.",
+        "input": ":mem.total: how much total ram is there"
+    },
+    {
+        "output": "{total_short} of memory is installed.",
+        "input": ":mem.total: how much installed mem is there"
+    },
+    {
+        "output": "{total_short} of memory is installed.",
+        "input": ":mem.total: how much installed memory is there"
+    },
+    {
+        "output": "{total_short} of memory is installed.",
+        "input": ":mem.total: how much total mem is there"
+    },
+    {
+        "output": "{total_short} of memory is installed.",
+        "input": ":mem.total: how much total memory is there"
+    },
+    {
+        "output": "{total_short} of memory is installed.",
+        "input": ":mem.total: how much installed ram do i have"
+    },
+    {
+        "output": "{total_short} of memory is installed.",
+        "input": ":mem.total: how much installed ram"
+    },
+    {
+        "output": "{total_short} of memory is installed.",
+        "input": ":mem.total: how much total ram do i have"
+    },
+    {
+        "output": "{total_short} of memory is installed.",
+        "input": ":mem.total: how much total ram"
+    },
+    {
+        "output": "{total_short} of memory is installed.",
+        "input": ":mem.total: how much installed mem do i have"
+    },
+    {
+        "output": "{total_short} of memory is installed.",
+        "input": ":mem.total: how much installed mem"
+    },
+    {
+        "output": "{total_short} of memory is installed.",
+        "input": ":mem.total: how much installed memory do i have"
+    },
+    {
+        "output": "{total_short} of memory is installed.",
+        "input": ":mem.total: how much installed memory"
+    },
+    {
+        "output": "{total_short} of memory is installed.",
+        "input": ":mem.total: how much total mem do i have"
+    },
+    {
+        "output": "{total_short} of memory is installed.",
+        "input": ":mem.total: how much total mem"
+    },
+    {
+        "output": "{total_short} of memory is installed.",
+        "input": ":mem.total: how much total memory do i have"
+    },
+    {
+        "output": "{total_short} of memory is installed.",
+        "input": ":mem.total: how much total memory"
+    },
+    {
+        "output": "{total_short} of memory is installed.",
+        "input": ":mem.total: amount of installed ram"
+    },
+    {
+        "output": "{total_short} of memory is installed.",
+        "input": ":mem.total: installed ram"
+    },
+    {
+        "output": "{total_short} of memory is installed.",
+        "input": ":mem.total: amount of total ram"
+    },
+    {
+        "output": "{total_short} of memory is installed.",
+        "input": ":mem.total: total ram"
+    },
+    {
+        "output": "{total_short} of memory is installed.",
+        "input": ":mem.total: amount of installed mem"
+    },
+    {
+        "output": "{total_short} of memory is installed.",
+        "input": ":mem.total: amount of installed memory"
+    },
+    {
+        "output": "{total_short} of memory is installed.",
+        "input": ":mem.total: installed mem"
+    },
+    {
+        "output": "{total_short} of memory is installed.",
+        "input": ":mem.total: installed memory"
+    },
+    {
+        "output": "{total_short} of memory is installed.",
+        "input": ":mem.total: amount of total mem"
+    },
+    {
+        "output": "{total_short} of memory is installed.",
+        "input": ":mem.total: amount of total memory"
+    },
+    {
+        "output": "{total_short} of memory is installed.",
+        "input": ":mem.total: total mem"
+    },
+    {
+        "output": "{total_short} of memory is installed.",
+        "input": ":mem.total: total memory"
+    },
+    {
+        "output": "{free_short} is free.",
+        "input": ":mem.free: how much free ram is there"
+    },
+    {
+        "output": "{free_short} is free.",
+        "input": ":mem.free: how much unused ram is there"
+    },
+    {
+        "output": "{free_short} is free.",
+        "input": ":mem.free: how much free mem is there"
+    },
+    {
+        "output": "{free_short} is free.",
+        "input": ":mem.free: how much free memory is there"
+    },
+    {
+        "output": "{free_short} is free.",
+        "input": ":mem.free: how much unused mem is there"
+    },
+    {
+        "output": "{free_short} is free.",
+        "input": ":mem.free: how much unused memory is there"
+    },
+    {
+        "output": "{free_short} is free.",
+        "input": ":mem.free: how much free ram do i have"
+    },
+    {
+        "output": "{free_short} is free.",
+        "input": ":mem.free: how much free ram"
+    },
+    {
+        "output": "{free_short} is free.",
+        "input": ":mem.free: how much unused ram do i have"
+    },
+    {
+        "output": "{free_short} is free.",
+        "input": ":mem.free: how much unused ram"
+    },
+    {
+        "output": "{free_short} is free.",
+        "input": ":mem.free: how much free mem do i have"
+    },
+    {
+        "output": "{free_short} is free.",
+        "input": ":mem.free: how much free mem"
+    },
+    {
+        "output": "{free_short} is free.",
+        "input": ":mem.free: how much free memory do i have"
+    },
+    {
+        "output": "{free_short} is free.",
+        "input": ":mem.free: how much free memory"
+    },
+    {
+        "output": "{free_short} is free.",
+        "input": ":mem.free: how much unused mem do i have"
+    },
+    {
+        "output": "{free_short} is free.",
+        "input": ":mem.free: how much unused mem"
+    },
+    {
+        "output": "{free_short} is free.",
+        "input": ":mem.free: how much unused memory do i have"
+    },
+    {
+        "output": "{free_short} is free.",
+        "input": ":mem.free: how much unused memory"
+    },
+    {
+        "output": "{free_short} is free.",
+        "input": ":mem.free: amount of free ram"
+    },
+    {
+        "output": "{free_short} is free.",
+        "input": ":mem.free: free ram"
+    },
+    {
+        "output": "{free_short} is free.",
+        "input": ":mem.free: amount of unused ram"
+    },
+    {
+        "output": "{free_short} is free.",
+        "input": ":mem.free: amount of available ram"
+    },
+    {
+        "output": "{free_short} is free.",
+        "input": ":mem.free: unused ram"
+    },
+    {
+        "output": "{free_short} is free.",
+        "input": ":mem.free: available ram"
+    },
+    {
+        "output": "{free_short} is free.",
+        "input": ":mem.free: amount of free mem"
+    },
+    {
+        "output": "{free_short} is free.",
+        "input": ":mem.free: amount of free memory"
+    },
+    {
+        "output": "{free_short} is free.",
+        "input": ":mem.free: free mem"
+    },
+    {
+        "output": "{free_short} is free.",
+        "input": ":mem.free: free memory"
+    },
+    {
+        "output": "{free_short} is free.",
+        "input": ":mem.free: amount of unused mem"
+    },
+    {
+        "output": "{free_short} is free.",
+        "input": ":mem.free: amount of unused memory"
+    },
+    {
+        "output": "{free_short} is free.",
+        "input": ":mem.free: amount of available mem"
+    },
+    {
+        "output": "{free_short} is free.",
+        "input": ":mem.free: amount of available memory"
+    },
+    {
+        "output": "{free_short} is free.",
+        "input": ":mem.free: unused mem"
+    },
+    {
+        "output": "{free_short} is free.",
+        "input": ":mem.free: unused memory"
+    },
+    {
+        "output": "{free_short} is free.",
+        "input": ":mem.free: available mem"
+    },
+    {
+        "output": "{free_short} is free.",
+        "input": ":mem.free: available memory"
+    },
+    {
+        "output": "{name} is currently using {percent}% CPU.",
+        "input": ":cpu.usage.application: what ' s the cpu use of {application}"
+    },
+    {
+        "output": "{name} is currently using {percent}% CPU.",
+        "input": ":cpu.usage.application: cpu use of {application}"
+    },
+    {
+        "output": "{name} is currently using {percent}% CPU.",
+        "input": ":cpu.usage.application: what ' s the cpu usage of {application}"
+    },
+    {
+        "output": "{name} is currently using {percent}% CPU.",
+        "input": ":cpu.usage.application: cpu usage of {application}"
+    },
+    {
+        "output": "{name} is currently using {percent}% CPU.",
+        "input": ":cpu.usage.application: how much cpu is {application} using"
+    },
+    {
+        "output": "{name} is currently using {percent}% CPU.",
+        "input": ":cpu.usage.application: processor usage of {application}"
+    },
+    {
+        "output": "{name} is currently using {percent}% CPU.",
+        "input": ":cpu.usage.application: {application} cpu usage"
+    },
+    {
+        "output": "{name} is currently using {percent}% CPU.",
+        "input": ":cpu.usage.application: {application} cpu use"
+    },
+    {
+        "output": "{name} is currently using {percent}% CPU.",
+        "input": ":cpu.usage.application: {application} how much cpu usage"
+    },
+    {
+        "output": "{name} is currently using {percent}% CPU.",
+        "input": ":cpu.usage.application: {application} how much cpu use"
+    },
+    {
+        "output": "{name} is currently using {percent}% CPU.",
+        "input": ":cpu.usage.application: {application} how much cpu"
+    },
+    {
+        "output": "{percent}% CPU is currently being used.",
+        "input": ":cpu.total.usage: what ' s the cpu usage"
+    },
+    {
+        "output": "{percent}% CPU is currently being used.",
+        "input": ":cpu.total.usage: current cpu usage"
+    },
+    {
+        "output": "{percent}% CPU is currently being used.",
+        "input": ":cpu.total.usage: cpu usage"
+    },
+    {
+        "output": "{percent}% CPU is currently being used.",
+        "input": ":cpu.total.usage: what ' s the cpu utilization"
+    },
+    {
+        "output": "{percent}% CPU is currently being used.",
+        "input": ":cpu.total.usage: current cpu utilization"
+    },
+    {
+        "output": "{percent}% CPU is currently being used.",
+        "input": ":cpu.total.usage: cpu utilization"
+    },
+    {
+        "output": "{percent}% CPU is currently being used.",
+        "input": ":cpu.total.usage: how much cpu is being used"
+    },
+    {
+        "output": "{percent}% CPU is currently being used.",
+        "input": ":cpu.total.usage: how much cpu is used"
+    },
+    {
+        "output": "{percent}% CPU is currently being used.",
+        "input": ":cpu.total.usage: cpu used"
+    },
+    {
+        "output": "{joke}.",
+        "input": ":joke: tell me a joke"
+    },
+    {
+        "output": "{joke}.",
+        "input": ":joke: make me laugh"
+    },
+    {
+        "output": "{joke}.",
+        "input": ":joke: brighten my day"
+    },
+    {
+        "output": "{joke}.",
+        "input": ":joke: can you tell me a good joke"
+    },
+    {
+        "output": "{joke}.",
+        "input": ":joke: what ' s a good joke"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: how to do {action} in c"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: how to do {action} using c"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: how to do {action} with c"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: how to do {action} in c + +"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: how to do {action} in python"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: how to do {action} in java"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: how to do {action} using c + +"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: how to do {action} using python"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: how to do {action} using java"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: how to do {action} with c + +"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: how to do {action} with python"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: how to do {action} with java"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: how to {action} in c"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: how to {action} using c"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: how to {action} with c"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: how to {action} c"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: how to {action} in c + +"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: how to {action} in python"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: how to {action} in java"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: how to {action} using c + +"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: how to {action} using python"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: how to {action} using java"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: how to {action} with c + +"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: how to {action} with python"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: how to {action} with java"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: how to {action} c + +"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: how to {action} python"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: how to {action} java"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: {action} in c"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: {action} using c"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: {action} with c"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: {action} in c + +"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: {action} in python"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: {action} in java"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: {action} using c + +"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: {action} using python"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: {action} using java"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: {action} with c + +"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: {action} with python"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: {action} with java"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: c how to {action}"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: c + + how to {action}"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: python how to {action}"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: java how to {action}"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: c how to do {action}"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: c + + how to do {action}"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: python how to do {action}"
+    },
+    {
+        "output": "{answer_short}",
+        "input": ":ask: java how to do {action}"
+    },
+    {
+        "output": "Please pair with the following code: {code}",
+        "input": ":pair: pair my device"
+    },
+    {
+        "output": "Please pair with the following code: {code}",
+        "input": ":pair: repair my device"
+    },
+    {
+        "output": "Please pair with the following code: {code}",
+        "input": ":pair: re-pair my device"
+    },
+    {
+        "output": "Please pair with the following code: {code}",
+        "input": ":pair: pair my device again"
+    },
+    {
+        "output": "Please pair with the following code: {code}",
+        "input": ":pair: setup my device again"
+    },
+    {
+        "output": "The alarm has been stopped.",
+        "input": ":alarm.stop: cancel alarm"
+    },
+    {
+        "output": "The alarm has been stopped.",
+        "input": ":alarm.stop: remove alarm"
+    },
+    {
+        "output": "The alarm has been stopped.",
+        "input": ":alarm.stop: disable alarm"
+    },
+    {
+        "output": "The alarm has been stopped.",
+        "input": ":alarm.stop: stop alarm"
+    },
+    {
+        "output": "The alarm has been stopped.",
+        "input": ":alarm.stop: deactivate alarm"
+    },
+    {
+        "output": "The alarm has been stopped.",
+        "input": ":alarm.stop: turn off alarm"
+    },
+    {
+        "output": "The alarm has been stopped.",
+        "input": ":alarm.stop: cancel the alarm"
+    },
+    {
+        "output": "The alarm has been stopped.",
+        "input": ":alarm.stop: remove the alarm"
+    },
+    {
+        "output": "The alarm has been stopped.",
+        "input": ":alarm.stop: disable the alarm"
+    },
+    {
+        "output": "The alarm has been stopped.",
+        "input": ":alarm.stop: stop the alarm"
+    },
+    {
+        "output": "The alarm has been stopped.",
+        "input": ":alarm.stop: deactivate the alarm"
+    },
+    {
+        "output": "The alarm has been stopped.",
+        "input": ":alarm.stop: turn off the alarm"
+    },
+    {
+        "output": "The alarm has been stopped.",
+        "input": ":alarm.stop: cancel my alarm"
+    },
+    {
+        "output": "The alarm has been stopped.",
+        "input": ":alarm.stop: remove my alarm"
+    },
+    {
+        "output": "The alarm has been stopped.",
+        "input": ":alarm.stop: disable my alarm"
+    },
+    {
+        "output": "The alarm has been stopped.",
+        "input": ":alarm.stop: stop my alarm"
+    },
+    {
+        "output": "The alarm has been stopped.",
+        "input": ":alarm.stop: deactivate my alarm"
+    },
+    {
+        "output": "The alarm has been stopped.",
+        "input": ":alarm.stop: turn off my alarm"
+    },
+    {
+        "output": "An alarm has been created for {weekday} at {hour}:{minute} {am_pm}.",
+        "input": ":alarm.set: set an alarm for {time} to {action}"
+    },
+    {
+        "output": "An alarm has been created for {weekday} at {hour}:{minute} {am_pm}.",
+        "input": ":alarm.set: create an alarm for {time} to {action}"
+    },
+    {
+        "output": "An alarm has been created for {weekday} at {hour}:{minute} {am_pm}.",
+        "input": ":alarm.set: set an alarm for {time}"
+    },
+    {
+        "output": "An alarm has been created for {weekday} at {hour}:{minute} {am_pm}.",
+        "input": ":alarm.set: create an alarm for {time}"
+    },
+    {
+        "output": "An alarm has been created for {weekday} at {hour}:{minute} {am_pm}.",
+        "input": ":alarm.set: set alarm for {time} to {action}"
+    },
+    {
+        "output": "An alarm has been created for {weekday} at {hour}:{minute} {am_pm}.",
+        "input": ":alarm.set: create alarm for {time} to {action}"
+    },
+    {
+        "output": "An alarm has been created for {weekday} at {hour}:{minute} {am_pm}.",
+        "input": ":alarm.set: set alarm for {time}"
+    },
+    {
+        "output": "An alarm has been created for {weekday} at {hour}:{minute} {am_pm}.",
+        "input": ":alarm.set: create alarm for {time}"
+    },
+    {
+        "output": "All alarms have been removed",
+        "input": ":alarm.remove: remove alarm"
+    },
+    {
+        "output": "All alarms have been removed",
+        "input": ":alarm.remove: disable alarm"
+    },
+    {
+        "output": "All alarms have been removed",
+        "input": ":alarm.remove: deactivate alarm"
+    },
+    {
+        "output": "All alarms have been removed",
+        "input": ":alarm.remove: turn off alarm"
+    },
+    {
+        "output": "All alarms have been removed",
+        "input": ":alarm.remove: remove the alarm"
+    },
+    {
+        "output": "All alarms have been removed",
+        "input": ":alarm.remove: disable the alarm"
+    },
+    {
+        "output": "All alarms have been removed",
+        "input": ":alarm.remove: deactivate the alarm"
+    },
+    {
+        "output": "All alarms have been removed",
+        "input": ":alarm.remove: turn off the alarm"
+    },
+    {
+        "output": "All alarms have been removed",
+        "input": ":alarm.remove: remove my alarm"
+    },
+    {
+        "output": "All alarms have been removed",
+        "input": ":alarm.remove: disable my alarm"
+    },
+    {
+        "output": "All alarms have been removed",
+        "input": ":alarm.remove: deactivate my alarm"
+    },
+    {
+        "output": "All alarms have been removed",
+        "input": ":alarm.remove: turn off my alarm"
+    },
+    {
+        "output": "All alarms have been removed",
+        "input": ":alarm.remove: remove alarms"
+    },
+    {
+        "output": "All alarms have been removed",
+        "input": ":alarm.remove: disable alarms"
+    },
+    {
+        "output": "All alarms have been removed",
+        "input": ":alarm.remove: deactivate alarms"
+    },
+    {
+        "output": "All alarms have been removed",
+        "input": ":alarm.remove: turn off alarms"
+    },
+    {
+        "output": "All alarms have been removed",
+        "input": ":alarm.remove: remove the alarms"
+    },
+    {
+        "output": "All alarms have been removed",
+        "input": ":alarm.remove: disable the alarms"
+    },
+    {
+        "output": "All alarms have been removed",
+        "input": ":alarm.remove: deactivate the alarms"
+    },
+    {
+        "output": "All alarms have been removed",
+        "input": ":alarm.remove: turn off the alarms"
+    },
+    {
+        "output": "All alarms have been removed",
+        "input": ":alarm.remove: remove my alarms"
+    },
+    {
+        "output": "All alarms have been removed",
+        "input": ":alarm.remove: disable my alarms"
+    },
+    {
+        "output": "All alarms have been removed",
+        "input": ":alarm.remove: deactivate my alarms"
+    },
+    {
+        "output": "All alarms have been removed",
+        "input": ":alarm.remove: turn off my alarms"
+    },
+    {
+        "output": "All alarms have been removed",
+        "input": ":alarm.remove: remove all alarms"
+    },
+    {
+        "output": "All alarms have been removed",
+        "input": ":alarm.remove: disable all alarms"
+    },
+    {
+        "output": "All alarms have been removed",
+        "input": ":alarm.remove: deactivate all alarms"
+    },
+    {
+        "output": "All alarms have been removed",
+        "input": ":alarm.remove: turn off all alarms"
+    },
+    {
+        "output": "Here are all alarms: {alarms}",
+        "input": ":alarm.list: what alarms are set"
+    },
+    {
+        "output": "Here are all alarms: {alarms}",
+        "input": ":alarm.list: what alarms do i have"
+    },
+    {
+        "output": "Here are all alarms: {alarms}",
+        "input": ":alarm.list: what are the alarms"
+    },
+    {
+        "output": "Here are all alarms: {alarms}",
+        "input": ":alarm.list: what are your alarms"
+    },
+    {
+        "output": "Here are all alarms: {alarms}",
+        "input": ":alarm.list: do i have an alarm"
+    },
+    {
+        "output": "Here are all alarms: {alarms}",
+        "input": ":alarm.list: is an alarm set"
+    },
+    {
+        "output": "Here are all alarms: {alarms}",
+        "input": ":alarm.list: list alarms"
+    },
+    {
+        "output": "Here are all alarms: {alarms}",
+        "input": ":alarm.list: find alarms"
+    },
+    {
+        "output": "Here are all alarms: {alarms}",
+        "input": ":alarm.list: get alarms"
+    },
+    {
+        "output": "Here are all alarms: {alarms}",
+        "input": ":alarm.list: list all alarms"
+    },
+    {
+        "output": "Here are all alarms: {alarms}",
+        "input": ":alarm.list: find all alarms"
+    },
+    {
+        "output": "Here are all alarms: {alarms}",
+        "input": ":alarm.list: get all alarms"
+    },
+    {
+        "output": "Here are all alarms: {alarms}",
+        "input": ":alarm.list: tell me my alarms"
+    },
+    {
+        "output": "Here are all alarms: {alarms}",
+        "input": ":alarm.list: list available alarms"
+    },
+    {
+        "output": "Here are all alarms: {alarms}",
+        "input": ":alarm.list: what ' s alarms are there"
+    },
+    {
+        "output": "Here are all alarms: {alarms}",
+        "input": ":alarm.list: when ' s the next alarm"
+    },
+    {
+        "output": "Here are all alarms: {alarms}",
+        "input": ":alarm.list: what time is the next alarm"
+    },
+    {
+        "output": "Here are all alarms: {alarms}",
+        "input": ":alarm.list: when are the alarms set for"
+    },
+    {
+        "output": "My IP address is {ip}.",
+        "input": ":ip: what ' s my ip address"
+    },
+    {
+        "output": "My IP address is {ip}.",
+        "input": ":ip: what ' s my ip"
+    },
+    {
+        "output": "My IP address is {ip}.",
+        "input": ":ip: what ' s your ip address"
+    },
+    {
+        "output": "My IP address is {ip}.",
+        "input": ":ip: what ' s your ip"
+    },
+    {
+        "output": "My IP address is {ip}.",
+        "input": ":ip: what ' s the ip address"
+    },
+    {
+        "output": "My IP address is {ip}.",
+        "input": ":ip: what ' s the ip"
+    },
+    {
+        "output": "My IP address is {ip}.",
+        "input": ":ip: ip"
+    },
+    {
+        "output": "Starting audio recording.",
+        "input": ":record.begin: start an audio recording"
+    },
+    {
+        "output": "Starting audio recording.",
+        "input": ":record.begin: record audio for {duration}"
+    },
+    {
+        "output": "Starting audio recording.",
+        "input": ":record.begin: begin audio recording"
+    },
+    {
+        "output": "Starting audio recording.",
+        "input": ":record.begin: record me for {duration}"
+    },
+    {
+        "output": "Starting audio recording.",
+        "input": ":record.begin: start recording"
+    },
+    {
+        "output": "Starting audio recording.",
+        "input": ":record.begin: start recording for {duration}"
+    },
+    {
+        "output": "Starting audio recording.",
+        "input": ":record.begin: record for {duration}"
+    },
+    {
+        "output": "Starting audio recording.",
+        "input": ":record.begin: begin recording for {duration}"
+    },
+    {
+        "output": "Starting audio recording.",
+        "input": ":record.begin: record audio"
+    },
+    {
+        "output": "Stopped audio playback.",
+        "input": ":playback.end: stop playing the recording"
+    },
+    {
+        "output": "Stopped audio playback.",
+        "input": ":playback.end: stop audio playback"
+    },
+    {
+        "output": "Stopped audio playback.",
+        "input": ":playback.end: end the audio playback"
+    },
+    {
+        "output": "Stopped audio playback.",
+        "input": ":playback.end: stop playing audio"
+    },
+    {
+        "output": "Stopped audio playback.",
+        "input": ":playback.end: stop audio"
+    },
+    {
+        "output": "Stopped audio playback.",
+        "input": ":playback.end: stop recording"
+    },
+    {
+        "output": "Stopped audio playback.",
+        "input": ":playback.end: end audio"
+    },
+    {
+        "output": "Stopped audio playback.",
+        "input": ":playback.end: end recording"
+    },
+    {
+        "output": "Starting audio playback.",
+        "input": ":playback.begin: play the recording"
+    },
+    {
+        "output": "Starting audio playback.",
+        "input": ":playback.begin: playback the saved audio"
+    },
+    {
+        "output": "Starting audio playback.",
+        "input": ":playback.begin: play me the recorded audio"
+    },
+    {
+        "output": "Starting audio playback.",
+        "input": ":playback.begin: start playback of recording"
+    },
+    {
+        "output": "Starting audio playback.",
+        "input": ":playback.begin: play recording"
+    },
+    {
+        "output": "Starting audio playback.",
+        "input": ":playback.begin: play the audio recording"
+    },
+    {
+        "output": "Starting audio playback.",
+        "input": ":playback.begin: start the audio recording"
+    },
+    {
+        "output": "Starting audio playback.",
+        "input": ":playback.begin: play back audio"
+    },
+    {
+        "output": "Starting audio playback.",
+        "input": ":playback.begin: playback audio"
+    },
+    {
+        "output": "Audio recording stopped.",
+        "input": ":record.end: stop recording me"
+    },
+    {
+        "output": "Audio recording stopped.",
+        "input": ":record.end: stop the recording"
+    },
+    {
+        "output": "Audio recording stopped.",
+        "input": ":record.end: end the recording"
+    },
+    {
+        "output": "Audio recording stopped.",
+        "input": ":record.end: stop audio recording"
+    },
+    {
+        "output": "Audio recording stopped.",
+        "input": ":record.end: stop recording"
+    },
+    {
+        "output": "Audio recording stopped.",
+        "input": ":record.end: end recording"
+    },
+    {
+        "output": "{words}.",
+        "input": ":say: say {words}"
+    },
+    {
+        "output": "{words}.",
+        "input": ":say: say the word {words}"
+    },
+    {
+        "output": "{words}.",
+        "input": ":say: say the phrase {words}"
+    },
+    {
+        "output": "{words}.",
+        "input": ":say: repeat {words}"
+    },
+    {
+        "output": "{words}.",
+        "input": ":say: repeat the word {words}"
+    },
+    {
+        "output": "{words}.",
+        "input": ":say: repeat the phrase {words}"
+    },
+    {
+        "output": "The intent cache for {skill} has been updated.",
+        "input": ":update: update the intent cache for {skill}"
+    },
+    {
+        "output": "The intent cache for {skill} has been updated.",
+        "input": ":update: refresh the intent cache for {skill}"
+    },
+    {
+        "output": "The intent cache for {skill} has been updated.",
+        "input": ":update: regenerate the intent cache for {skill}"
+    },
+    {
+        "output": "The intent cache for {skill} has been updated.",
+        "input": ":update: update {skill} ' s intent cache"
+    },
+    {
+        "output": "The intent cache for {skill} has been updated.",
+        "input": ":update: refresh {skill} ' s intent cache"
+    },
+    {
+        "output": "The intent cache for {skill} has been updated.",
+        "input": ":update: regenerate {skill} ' s intent cache"
+    },
+    {
+        "output": "The intent cache for {skill} has been updated.",
+        "input": ":update: update {skill} intent cache"
+    },
+    {
+        "output": "The intent cache for {skill} has been updated.",
+        "input": ":update: refresh {skill} intent cache"
+    },
+    {
+        "output": "The intent cache for {skill} has been updated.",
+        "input": ":update: regenerate {skill} intent cache"
+    },
+    {
+        "output": "The intent caches have been updated.",
+        "input": ":update.all: update all intents"
+    },
+    {
+        "output": "The intent caches have been updated.",
+        "input": ":update.all: refresh all intents"
+    },
+    {
+        "output": "The intent caches have been updated.",
+        "input": ":update.all: regenerate all intents"
+    },
+    {
+        "output": "The intent caches have been updated.",
+        "input": ":update.all: update all intent cache"
+    },
+    {
+        "output": "The intent caches have been updated.",
+        "input": ":update.all: update all intent caches"
+    },
+    {
+        "output": "The intent caches have been updated.",
+        "input": ":update.all: refresh all intent cache"
+    },
+    {
+        "output": "The intent caches have been updated.",
+        "input": ":update.all: refresh all intent caches"
+    },
+    {
+        "output": "The intent caches have been updated.",
+        "input": ":update.all: regenerate all intent cache"
+    },
+    {
+        "output": "The intent caches have been updated.",
+        "input": ":update.all: regenerate all intent caches"
+    },
+    {
+        "output": "Hello.",
+        "input": ":greet: hello"
+    },
+    {
+        "output": "Hello.",
+        "input": ":greet: hi there"
+    },
+    {
+        "output": "Hello.",
+        "input": ":greet: hi"
+    },
+    {
+        "output": "Hello.",
+        "input": ":greet: greetings"
+    },
+    {
+        "output": "I'm Mycroft.",
+        "input": ":whats.your.name: what ' s your name"
+    },
+    {
+        "output": "I'm Mycroft.",
+        "input": ":whats.your.name: what are you called"
+    },
+    {
+        "output": "I'm Mycroft.",
+        "input": ":whats.your.name: what do i call you"
+    },
+    {
+        "output": "I'm Mycroft.",
+        "input": ":whats.your.name: what can i call you"
+    },
+    {
+        "output": "I'm Mycroft.",
+        "input": ":whats.your.name: what do you call yourself"
+    },
+    {
+        "output": "I'm fine.",
+        "input": ":how.are.you: how are you"
+    },
+    {
+        "output": "I'm fine.",
+        "input": ":how.are.you: are you alright"
+    },
+    {
+        "output": "I'm fine.",
+        "input": ":how.are.you: are you okay"
+    },
+    {
+        "output": "I'm fine.",
+        "input": ":how.are.you: how are you doing today"
+    },
+    {
+        "output": "I'm fine.",
+        "input": ":how.are.you: how are you doing"
+    },
+    {
+        "output": "I'm an open source artificial intelligence platform.",
+        "input": ":who.are.you: who are you"
+    },
+    {
+        "output": "I'm an open source artificial intelligence platform.",
+        "input": ":who.are.you: what are you"
+    },
+    {
+        "output": "Not much.",
+        "input": ":whats.up: what up"
+    },
+    {
+        "output": "Not much.",
+        "input": ":whats.up: what ' s up"
+    },
+    {
+        "output": "Not much.",
+        "input": ":whats.up: what ' s going on"
+    },
+    {
+        "output": "Not much.",
+        "input": ":whats.up: what ' s happening"
+    },
+    {
+        "output": "Well.",
+        "input": ":hows.it.going: how ' s it going"
+    },
+    {
+        "output": "Well.",
+        "input": ":hows.it.going: how ' s your life"
+    },
+    {
+        "output": "Right back at you.",
+        "input": ":piss.off.harsh: fuck you"
+    },
+    {
+        "output": "Right back at you.",
+        "input": ":piss.off.harsh: f you"
+    },
+    {
+        "output": "Right back at you.",
+        "input": ":piss.off.harsh: fu"
+    },
+    {
+        "output": "Right back at you.",
+        "input": ":piss.off.harsh: f * * * you"
+    },
+    {
+        "output": "Right back at you.",
+        "input": ":piss.off.harsh: you ' re a cunt"
+    },
+    {
+        "output": "Right back at you.",
+        "input": ":piss.off.harsh: you fucking idiot"
+    },
+    {
+        "output": "Right back at you.",
+        "input": ":piss.off.harsh: get the hell out of here"
+    },
+    {
+        "output": "Right back at you.",
+        "input": ":piss.off.harsh: you ' re a bitch"
+    },
+    {
+        "output": "Right back at you.",
+        "input": ":piss.off.harsh: you ' re a b * * * *"
+    },
+    {
+        "output": "Right back at you.",
+        "input": ":piss.off.harsh: you fucker"
+    },
+    {
+        "output": "Right back at you.",
+        "input": ":piss.off.harsh: you f * * * * *"
+    },
+    {
+        "output": "Right back at you.",
+        "input": ":piss.off.harsh: you little fucker"
+    },
+    {
+        "output": "Right back at you.",
+        "input": ":piss.off.harsh: b * * * *"
+    },
+    {
+        "output": "Right back at you.",
+        "input": ":piss.off.harsh: bitch"
+    },
+    {
+        "output": "No worries, I hate you too.",
+        "input": ":piss.off.mild: i hate you"
+    },
+    {
+        "output": "No worries, I hate you too.",
+        "input": ":piss.off.mild: you ' re stupid"
+    },
+    {
+        "output": "No worries, I hate you too.",
+        "input": ":piss.off.mild: you stupid {thing}"
+    },
+    {
+        "output": "No worries, I hate you too.",
+        "input": ":piss.off.mild: you ' re a stupid {thing}"
+    },
+    {
+        "output": "No worries, I hate you too.",
+        "input": ":piss.off.mild: you ' re a fucking {thing}"
+    },
+    {
+        "output": "No worries, I hate you too.",
+        "input": ":piss.off.mild: you fucking {thing}"
+    },
+    {
+        "output": "No worries, I hate you too.",
+        "input": ":piss.off.mild: you goddamn {thing}"
+    },
+    {
+        "output": "No worries, I hate you too.",
+        "input": ":piss.off.mild: you ' re a goddamn {thing}"
+    },
+    {
+        "output": "No worries, I hate you too.",
+        "input": ":piss.off.mild: you ' re an idiot"
+    },
+    {
+        "output": "No worries, I hate you too.",
+        "input": ":piss.off.mild: get out of here"
+    },
+    {
+        "output": "Opening {path} in file manager...",
+        "input": ":open.path: open {path} in ( a file manager | )"
+    },
+    {
+        "output": "Opening {path} in file manager...",
+        "input": ":open.path: open {path} file manager | )"
+    },
+    {
+        "output": "Opening {path} in file manager...",
+        "input": ":open.path: open a file manager to {path}"
+    },
+    {
+        "output": "Opening {path} in file manager...",
+        "input": ":open.path: launch a file manager to {path}"
+    },
+    {
+        "output": "Opening {path} in file manager...",
+        "input": ":open.path: start a file manager to {path}"
+    },
+    {
+        "output": "Opening {path} in file manager...",
+        "input": ":open.path: open file manager to {path}"
+    },
+    {
+        "output": "Opening {path} in file manager...",
+        "input": ":open.path: launch file manager to {path}"
+    },
+    {
+        "output": "Opening {path} in file manager...",
+        "input": ":open.path: start file manager to {path}"
+    },
+    {
+        "output": "Opening {path} in file manager...",
+        "input": ":open.path: open a file manager in {path}"
+    },
+    {
+        "output": "Opening {path} in file manager...",
+        "input": ":open.path: launch a file manager in {path}"
+    },
+    {
+        "output": "Opening {path} in file manager...",
+        "input": ":open.path: start a file manager in {path}"
+    },
+    {
+        "output": "Opening {path} in file manager...",
+        "input": ":open.path: open file manager in {path}"
+    },
+    {
+        "output": "Opening {path} in file manager...",
+        "input": ":open.path: launch file manager in {path}"
+    },
+    {
+        "output": "Opening {path} in file manager...",
+        "input": ":open.path: start file manager in {path}"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open {place} ' s dir in ( a file manager | )"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open {place} dir in ( a file manager | )"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open {place} ' s directory in ( a file manager | )"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open {place} ' s folder in ( a file manager | )"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open {place} ' s in ( a file manager | )"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open {place} directory in ( a file manager | )"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open {place} folder in ( a file manager | )"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open {place} in ( a file manager | )"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open {place} ' s dir file manager | )"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open {place} dir file manager | )"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open {place} ' s directory file manager | )"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open {place} ' s folder file manager | )"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open {place} ' s file manager | )"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open {place} directory file manager | )"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open {place} folder file manager | )"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open {place} file manager | )"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open the dir of {place}"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open dir of {place}"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open the directory of {place}"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open the folder of {place}"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open the of {place}"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open directory of {place}"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open folder of {place}"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open of {place}"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open the dir for {place}"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open the dir {place}"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open dir for {place}"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open dir {place}"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open the directory for {place}"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open the directory {place}"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open the folder for {place}"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open the folder {place}"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open the for {place}"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open the {place}"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open directory for {place}"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open directory {place}"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open folder for {place}"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open folder {place}"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open for {place}"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open {place}"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open a file manager to {place}"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: launch a file manager to {place}"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: start a file manager to {place}"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open file manager to {place}"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: launch file manager to {place}"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: start file manager to {place}"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open a file manager in {place}"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: launch a file manager in {place}"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: start a file manager in {place}"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: open file manager in {place}"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: launch file manager in {place}"
+    },
+    {
+        "output": "Opening {place} in file manager...",
+        "input": ":open.place: start file manager in {place}"
+    }
+]

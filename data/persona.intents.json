@@ -1,0 +1,3266 @@
+[
+    {
+        "input": "why did {skill} fail to load",
+        "output": "why.did.skill.fail"
+    },
+    {
+        "input": "why did {skill} fail",
+        "output": "why.did.skill.fail"
+    },
+    {
+        "input": "what happened to {skill}",
+        "output": "why.did.skill.fail"
+    },
+    {
+        "input": "reason for {skill} crash",
+        "output": "why.did.skill.fail"
+    },
+    {
+        "input": "explain {skill} crash",
+        "output": "why.did.skill.fail"
+    },
+    {
+        "input": "explain {skill} error",
+        "output": "why.did.skill.fail"
+    },
+    {
+        "input": "tell me why {skill} failed",
+        "output": "why.did.skill.fail"
+    },
+    {
+        "input": "when will it stop raining",
+        "output": "weather.next.hour"
+    },
+    {
+        "input": "when will it stop snowing",
+        "output": "weather.next.hour"
+    },
+    {
+        "input": "when will it stop sleeting",
+        "output": "weather.next.hour"
+    },
+    {
+        "input": "when will it stop showering",
+        "output": "weather.next.hour"
+    },
+    {
+        "input": "when will it stop pouring",
+        "output": "weather.next.hour"
+    },
+    {
+        "input": "when will the sun come out",
+        "output": "weather.next.hour"
+    },
+    {
+        "input": "what ' s the weather in a few hours",
+        "output": "weather.next.hour"
+    },
+    {
+        "input": "what ' s the forecast in a few hours",
+        "output": "weather.next.hour"
+    },
+    {
+        "input": "what ' s the weather for tonight",
+        "output": "weather.next.hour"
+    },
+    {
+        "input": "what ' s the forecast for tonight",
+        "output": "weather.next.hour"
+    },
+    {
+        "input": "what ' s the weather for later today",
+        "output": "weather.next.hour"
+    },
+    {
+        "input": "what ' s the forecast for later today",
+        "output": "weather.next.hour"
+    },
+    {
+        "input": "what ' s the weather for later tonight",
+        "output": "weather.next.hour"
+    },
+    {
+        "input": "what ' s the forecast for later tonight",
+        "output": "weather.next.hour"
+    },
+    {
+        "input": "what will the weather be later",
+        "output": "weather.next.hour"
+    },
+    {
+        "input": "will it rain tonight",
+        "output": "weather.next.hour"
+    },
+    {
+        "input": "will it rain later today",
+        "output": "weather.next.hour"
+    },
+    {
+        "input": "will it rain",
+        "output": "weather.next.hour"
+    },
+    {
+        "input": "will it be sunny another day",
+        "output": "weather.next.hour"
+    },
+    {
+        "input": "will the sun come out",
+        "output": "weather.next.hour"
+    },
+    {
+        "input": "will it be raining tonight",
+        "output": "weather.next.hour"
+    },
+    {
+        "input": "what ' s the forecast for tomorrow",
+        "output": "weather.next.day"
+    },
+    {
+        "input": "what ' s the forecast for next week",
+        "output": "weather.next.day"
+    },
+    {
+        "input": "what ' s the weather for tomorrow",
+        "output": "weather.next.day"
+    },
+    {
+        "input": "what ' s the weather for next week",
+        "output": "weather.next.day"
+    },
+    {
+        "input": "will it rain tomorrow",
+        "output": "weather.next.day"
+    },
+    {
+        "input": "will it rain next week",
+        "output": "weather.next.day"
+    },
+    {
+        "input": "will it be sunny tomorrow",
+        "output": "weather.next.day"
+    },
+    {
+        "input": "will it be raining tomorrow",
+        "output": "weather.next.day"
+    },
+    {
+        "input": "will it be rainy tomorrow",
+        "output": "weather.next.day"
+    },
+    {
+        "input": "will it be sunny next week",
+        "output": "weather.next.day"
+    },
+    {
+        "input": "will it be raining next week",
+        "output": "weather.next.day"
+    },
+    {
+        "input": "will it be rainy next week",
+        "output": "weather.next.day"
+    },
+    {
+        "input": "weather right now in {location}",
+        "output": "weather.current"
+    },
+    {
+        "input": "weather in {location}",
+        "output": "weather.current"
+    },
+    {
+        "input": "weather right now",
+        "output": "weather.current"
+    },
+    {
+        "input": "weather",
+        "output": "weather.current"
+    },
+    {
+        "input": "what ' s the weather like right now in {location}",
+        "output": "weather.current"
+    },
+    {
+        "input": "what ' s the weather right now in {location}",
+        "output": "weather.current"
+    },
+    {
+        "input": "what ' s the weather like in {location}",
+        "output": "weather.current"
+    },
+    {
+        "input": "what ' s the weather in {location}",
+        "output": "weather.current"
+    },
+    {
+        "input": "what ' s the weather like right now",
+        "output": "weather.current"
+    },
+    {
+        "input": "what ' s the weather right now",
+        "output": "weather.current"
+    },
+    {
+        "input": "what ' s the weather like",
+        "output": "weather.current"
+    },
+    {
+        "input": "what ' s the weather",
+        "output": "weather.current"
+    },
+    {
+        "input": "what does it feel like outside",
+        "output": "weather.current"
+    },
+    {
+        "input": "what ' s the temperature outside",
+        "output": "weather.current"
+    },
+    {
+        "input": "is it currently hot outside",
+        "output": "weather.current"
+    },
+    {
+        "input": "is it hot outside",
+        "output": "weather.current"
+    },
+    {
+        "input": "is it currently sunny outside",
+        "output": "weather.current"
+    },
+    {
+        "input": "is it currently rainy outside",
+        "output": "weather.current"
+    },
+    {
+        "input": "is it currently raining outside",
+        "output": "weather.current"
+    },
+    {
+        "input": "is it currently sleeting outside",
+        "output": "weather.current"
+    },
+    {
+        "input": "is it currently wet outside",
+        "output": "weather.current"
+    },
+    {
+        "input": "is it sunny outside",
+        "output": "weather.current"
+    },
+    {
+        "input": "is it rainy outside",
+        "output": "weather.current"
+    },
+    {
+        "input": "is it raining outside",
+        "output": "weather.current"
+    },
+    {
+        "input": "is it sleeting outside",
+        "output": "weather.current"
+    },
+    {
+        "input": "is it wet outside",
+        "output": "weather.current"
+    },
+    {
+        "input": "is it currently hot in {location}",
+        "output": "weather.current"
+    },
+    {
+        "input": "is it currently hot",
+        "output": "weather.current"
+    },
+    {
+        "input": "is it hot in {location}",
+        "output": "weather.current"
+    },
+    {
+        "input": "is it hot",
+        "output": "weather.current"
+    },
+    {
+        "input": "is it currently sunny in {location}",
+        "output": "weather.current"
+    },
+    {
+        "input": "is it currently sunny",
+        "output": "weather.current"
+    },
+    {
+        "input": "is it currently rainy in {location}",
+        "output": "weather.current"
+    },
+    {
+        "input": "is it currently rainy",
+        "output": "weather.current"
+    },
+    {
+        "input": "is it currently raining in {location}",
+        "output": "weather.current"
+    },
+    {
+        "input": "is it currently raining",
+        "output": "weather.current"
+    },
+    {
+        "input": "is it currently sleeting in {location}",
+        "output": "weather.current"
+    },
+    {
+        "input": "is it currently sleeting",
+        "output": "weather.current"
+    },
+    {
+        "input": "is it currently wet in {location}",
+        "output": "weather.current"
+    },
+    {
+        "input": "is it currently wet",
+        "output": "weather.current"
+    },
+    {
+        "input": "is it sunny in {location}",
+        "output": "weather.current"
+    },
+    {
+        "input": "is it sunny",
+        "output": "weather.current"
+    },
+    {
+        "input": "is it rainy in {location}",
+        "output": "weather.current"
+    },
+    {
+        "input": "is it rainy",
+        "output": "weather.current"
+    },
+    {
+        "input": "is it raining in {location}",
+        "output": "weather.current"
+    },
+    {
+        "input": "is it raining",
+        "output": "weather.current"
+    },
+    {
+        "input": "is it sleeting in {location}",
+        "output": "weather.current"
+    },
+    {
+        "input": "is it sleeting",
+        "output": "weather.current"
+    },
+    {
+        "input": "is it wet in {location}",
+        "output": "weather.current"
+    },
+    {
+        "input": "is it wet",
+        "output": "weather.current"
+    },
+    {
+        "input": "what ' s the forecast for {location}",
+        "output": "weather.current"
+    },
+    {
+        "input": "what ' s the temperature for {location}",
+        "output": "weather.current"
+    },
+    {
+        "input": "what ' s the forecast in {location}",
+        "output": "weather.current"
+    },
+    {
+        "input": "what ' s the temperature in {location}",
+        "output": "weather.current"
+    },
+    {
+        "input": "what ' s the forecast",
+        "output": "weather.current"
+    },
+    {
+        "input": "what ' s the temperature",
+        "output": "weather.current"
+    },
+    {
+        "input": "{num} and {num}",
+        "output": "math"
+    },
+    {
+        "input": "log",
+        "output": "math"
+    },
+    {
+        "input": "log 2",
+        "output": "math"
+    },
+    {
+        "input": "log 10",
+        "output": "math"
+    },
+    {
+        "input": "logarithm",
+        "output": "math"
+    },
+    {
+        "input": "what ' s the answer to {equation}",
+        "output": "math"
+    },
+    {
+        "input": "what is the answer to {equation}",
+        "output": "math"
+    },
+    {
+        "input": "find the answer to {equation}",
+        "output": "math"
+    },
+    {
+        "input": "what ' s {equation}",
+        "output": "math"
+    },
+    {
+        "input": "what is {equation}",
+        "output": "math"
+    },
+    {
+        "input": "find {equation}",
+        "output": "math"
+    },
+    {
+        "input": "answer to {equation}",
+        "output": "math"
+    },
+    {
+        "input": "solution to {equation}",
+        "output": "math"
+    },
+    {
+        "input": "answer of {equation}",
+        "output": "math"
+    },
+    {
+        "input": "solution of {equation}",
+        "output": "math"
+    },
+    {
+        "input": "stop pandora",
+        "output": "pandora.stop"
+    },
+    {
+        "input": "stop playing pandora",
+        "output": "pandora.stop"
+    },
+    {
+        "input": "pandora",
+        "output": "pandora.play"
+    },
+    {
+        "input": "pandora station {id}",
+        "output": "pandora.play"
+    },
+    {
+        "input": "pandora on station {id}",
+        "output": "pandora.play"
+    },
+    {
+        "input": "play station {id} on pandora",
+        "output": "pandora.play"
+    },
+    {
+        "input": "play pandora",
+        "output": "pandora.play"
+    },
+    {
+        "input": "play some pandora",
+        "output": "pandora.play"
+    },
+    {
+        "input": "play pandora station {id}",
+        "output": "pandora.play"
+    },
+    {
+        "input": "play pandora on station {id}",
+        "output": "pandora.play"
+    },
+    {
+        "input": "play {song} on pandora",
+        "output": "pandora.play"
+    },
+    {
+        "input": "next pandora song",
+        "output": "pandora.next"
+    },
+    {
+        "input": "play next song on pandora",
+        "output": "pandora.next"
+    },
+    {
+        "input": "skip pandora song",
+        "output": "pandora.next"
+    },
+    {
+        "input": "go to next pandora song",
+        "output": "pandora.next"
+    },
+    {
+        "input": "goto next pandora song",
+        "output": "pandora.next"
+    },
+    {
+        "input": "skip pandora",
+        "output": "pandora.next"
+    },
+    {
+        "input": "next pandora",
+        "output": "pandora.next"
+    },
+    {
+        "input": "skip this pandora song",
+        "output": "pandora.next"
+    },
+    {
+        "input": "skip the pandora song",
+        "output": "pandora.next"
+    },
+    {
+        "input": "go to the next pandora song",
+        "output": "pandora.next"
+    },
+    {
+        "input": "how do i activate {skill}",
+        "output": "how.do.i.activate"
+    },
+    {
+        "input": "what do i do to activate {skill}",
+        "output": "how.do.i.activate"
+    },
+    {
+        "input": "how do i launch {skill}",
+        "output": "how.do.i.activate"
+    },
+    {
+        "input": "how do i start {skill}",
+        "output": "how.do.i.activate"
+    },
+    {
+        "input": "what do i do to launch {skill}",
+        "output": "how.do.i.activate"
+    },
+    {
+        "input": "what do i do to start {skill}",
+        "output": "how.do.i.activate"
+    },
+    {
+        "input": "what time is it",
+        "output": "time"
+    },
+    {
+        "input": "what ' s the time",
+        "output": "time"
+    },
+    {
+        "input": "what time is it in {place}",
+        "output": "time"
+    },
+    {
+        "input": "what ' s the time in {place}",
+        "output": "time"
+    },
+    {
+        "input": "what time is it right now",
+        "output": "time"
+    },
+    {
+        "input": "what ' s the time right now",
+        "output": "time"
+    },
+    {
+        "input": "what time is it in {place} right now",
+        "output": "time"
+    },
+    {
+        "input": "what ' s the time in {place} right now",
+        "output": "time"
+    },
+    {
+        "input": "what time is it right now in {place}",
+        "output": "time"
+    },
+    {
+        "input": "what ' s the time right now in {place}",
+        "output": "time"
+    },
+    {
+        "input": "what time",
+        "output": "time"
+    },
+    {
+        "input": "what time in {place}",
+        "output": "time"
+    },
+    {
+        "input": "time",
+        "output": "time"
+    },
+    {
+        "input": "time in {place}",
+        "output": "time"
+    },
+    {
+        "input": "is it late",
+        "output": "time"
+    },
+    {
+        "input": "is it early",
+        "output": "time"
+    },
+    {
+        "input": "what day is it",
+        "output": "date"
+    },
+    {
+        "input": "what ' s the date",
+        "output": "date"
+    },
+    {
+        "input": "what day is it today",
+        "output": "date"
+    },
+    {
+        "input": "can you tell me the date",
+        "output": "date"
+    },
+    {
+        "input": "can you tell me what day it is",
+        "output": "date"
+    },
+    {
+        "input": "is it {weekday}",
+        "output": "date"
+    },
+    {
+        "input": "is today {weekday}",
+        "output": "date"
+    },
+    {
+        "input": "what day is tomorrow",
+        "output": "date"
+    },
+    {
+        "input": "spell the word {word}",
+        "output": "spell"
+    },
+    {
+        "input": "spell {word}",
+        "output": "spell"
+    },
+    {
+        "input": "what ' s the spelling of {word}",
+        "output": "spell"
+    },
+    {
+        "input": "how do you spell {word}",
+        "output": "spell"
+    },
+    {
+        "input": "remove {task} from the todo",
+        "output": "remove"
+    },
+    {
+        "input": "take off {task} from the todo",
+        "output": "remove"
+    },
+    {
+        "input": "remove {task} from my todo",
+        "output": "remove"
+    },
+    {
+        "input": "take off {task} from my todo",
+        "output": "remove"
+    },
+    {
+        "input": "remove {task} from the todo list",
+        "output": "remove"
+    },
+    {
+        "input": "take off {task} from the todo list",
+        "output": "remove"
+    },
+    {
+        "input": "remove {task} from my todo list",
+        "output": "remove"
+    },
+    {
+        "input": "take off {task} from my todo list",
+        "output": "remove"
+    },
+    {
+        "input": "clear my todo list",
+        "output": "remove.all"
+    },
+    {
+        "input": "erase my todo list",
+        "output": "remove.all"
+    },
+    {
+        "input": "clear the todo list",
+        "output": "remove.all"
+    },
+    {
+        "input": "clear todo list",
+        "output": "remove.all"
+    },
+    {
+        "input": "erase the todo list",
+        "output": "remove.all"
+    },
+    {
+        "input": "erase todo list",
+        "output": "remove.all"
+    },
+    {
+        "input": "clear my todo",
+        "output": "remove.all"
+    },
+    {
+        "input": "erase my todo",
+        "output": "remove.all"
+    },
+    {
+        "input": "clear the todo",
+        "output": "remove.all"
+    },
+    {
+        "input": "clear todo",
+        "output": "remove.all"
+    },
+    {
+        "input": "erase the todo",
+        "output": "remove.all"
+    },
+    {
+        "input": "erase todo",
+        "output": "remove.all"
+    },
+    {
+        "input": "what ' s on my todo",
+        "output": "show"
+    },
+    {
+        "input": "what ' s on the todo",
+        "output": "show"
+    },
+    {
+        "input": "what ' s on my todo list",
+        "output": "show"
+    },
+    {
+        "input": "what ' s on my things to do",
+        "output": "show"
+    },
+    {
+        "input": "what ' s on my things to do today",
+        "output": "show"
+    },
+    {
+        "input": "what ' s on the todo list",
+        "output": "show"
+    },
+    {
+        "input": "what ' s on the things to do",
+        "output": "show"
+    },
+    {
+        "input": "what ' s on the things to do today",
+        "output": "show"
+    },
+    {
+        "input": "show the things on my todo",
+        "output": "show"
+    },
+    {
+        "input": "show me the things on my todo",
+        "output": "show"
+    },
+    {
+        "input": "list the things on my todo",
+        "output": "show"
+    },
+    {
+        "input": "show what ' s on my todo",
+        "output": "show"
+    },
+    {
+        "input": "show my todo",
+        "output": "show"
+    },
+    {
+        "input": "show me what ' s on my todo",
+        "output": "show"
+    },
+    {
+        "input": "show me my todo",
+        "output": "show"
+    },
+    {
+        "input": "list what ' s on my todo",
+        "output": "show"
+    },
+    {
+        "input": "list my todo",
+        "output": "show"
+    },
+    {
+        "input": "show the things on the todo",
+        "output": "show"
+    },
+    {
+        "input": "show me the things on the todo",
+        "output": "show"
+    },
+    {
+        "input": "list the things on the todo",
+        "output": "show"
+    },
+    {
+        "input": "show what ' s on the todo",
+        "output": "show"
+    },
+    {
+        "input": "show the todo",
+        "output": "show"
+    },
+    {
+        "input": "show me what ' s on the todo",
+        "output": "show"
+    },
+    {
+        "input": "show me the todo",
+        "output": "show"
+    },
+    {
+        "input": "list what ' s on the todo",
+        "output": "show"
+    },
+    {
+        "input": "list the todo",
+        "output": "show"
+    },
+    {
+        "input": "show the things on my todo list",
+        "output": "show"
+    },
+    {
+        "input": "show the things on my things to do",
+        "output": "show"
+    },
+    {
+        "input": "show the things on my things to do today",
+        "output": "show"
+    },
+    {
+        "input": "show me the things on my todo list",
+        "output": "show"
+    },
+    {
+        "input": "show me the things on my things to do",
+        "output": "show"
+    },
+    {
+        "input": "show me the things on my things to do today",
+        "output": "show"
+    },
+    {
+        "input": "list the things on my todo list",
+        "output": "show"
+    },
+    {
+        "input": "list the things on my things to do",
+        "output": "show"
+    },
+    {
+        "input": "list the things on my things to do today",
+        "output": "show"
+    },
+    {
+        "input": "show what ' s on my todo list",
+        "output": "show"
+    },
+    {
+        "input": "show what ' s on my things to do",
+        "output": "show"
+    },
+    {
+        "input": "show what ' s on my things to do today",
+        "output": "show"
+    },
+    {
+        "input": "show my todo list",
+        "output": "show"
+    },
+    {
+        "input": "show my things to do",
+        "output": "show"
+    },
+    {
+        "input": "show my things to do today",
+        "output": "show"
+    },
+    {
+        "input": "show me what ' s on my todo list",
+        "output": "show"
+    },
+    {
+        "input": "show me what ' s on my things to do",
+        "output": "show"
+    },
+    {
+        "input": "show me what ' s on my things to do today",
+        "output": "show"
+    },
+    {
+        "input": "show me my todo list",
+        "output": "show"
+    },
+    {
+        "input": "show me my things to do",
+        "output": "show"
+    },
+    {
+        "input": "show me my things to do today",
+        "output": "show"
+    },
+    {
+        "input": "list what ' s on my todo list",
+        "output": "show"
+    },
+    {
+        "input": "list what ' s on my things to do",
+        "output": "show"
+    },
+    {
+        "input": "list what ' s on my things to do today",
+        "output": "show"
+    },
+    {
+        "input": "list my todo list",
+        "output": "show"
+    },
+    {
+        "input": "list my things to do",
+        "output": "show"
+    },
+    {
+        "input": "list my things to do today",
+        "output": "show"
+    },
+    {
+        "input": "show the things on the todo list",
+        "output": "show"
+    },
+    {
+        "input": "show the things on the things to do",
+        "output": "show"
+    },
+    {
+        "input": "show the things on the things to do today",
+        "output": "show"
+    },
+    {
+        "input": "show me the things on the todo list",
+        "output": "show"
+    },
+    {
+        "input": "show me the things on the things to do",
+        "output": "show"
+    },
+    {
+        "input": "show me the things on the things to do today",
+        "output": "show"
+    },
+    {
+        "input": "list the things on the todo list",
+        "output": "show"
+    },
+    {
+        "input": "list the things on the things to do",
+        "output": "show"
+    },
+    {
+        "input": "list the things on the things to do today",
+        "output": "show"
+    },
+    {
+        "input": "show what ' s on the todo list",
+        "output": "show"
+    },
+    {
+        "input": "show what ' s on the things to do",
+        "output": "show"
+    },
+    {
+        "input": "show what ' s on the things to do today",
+        "output": "show"
+    },
+    {
+        "input": "show the todo list",
+        "output": "show"
+    },
+    {
+        "input": "show the things to do",
+        "output": "show"
+    },
+    {
+        "input": "show the things to do today",
+        "output": "show"
+    },
+    {
+        "input": "show me what ' s on the todo list",
+        "output": "show"
+    },
+    {
+        "input": "show me what ' s on the things to do",
+        "output": "show"
+    },
+    {
+        "input": "show me what ' s on the things to do today",
+        "output": "show"
+    },
+    {
+        "input": "show me the todo list",
+        "output": "show"
+    },
+    {
+        "input": "show me the things to do",
+        "output": "show"
+    },
+    {
+        "input": "show me the things to do today",
+        "output": "show"
+    },
+    {
+        "input": "list what ' s on the todo list",
+        "output": "show"
+    },
+    {
+        "input": "list what ' s on the things to do",
+        "output": "show"
+    },
+    {
+        "input": "list what ' s on the things to do today",
+        "output": "show"
+    },
+    {
+        "input": "list the todo list",
+        "output": "show"
+    },
+    {
+        "input": "list the things to do",
+        "output": "show"
+    },
+    {
+        "input": "list the things to do today",
+        "output": "show"
+    },
+    {
+        "input": "remind me to {task}",
+        "output": "add"
+    },
+    {
+        "input": "don ' t let me forget to {task}",
+        "output": "add"
+    },
+    {
+        "input": "create a todo item to {task}",
+        "output": "add"
+    },
+    {
+        "input": "create a todo item for {task}",
+        "output": "add"
+    },
+    {
+        "input": "add an item to my todo list",
+        "output": "add"
+    },
+    {
+        "input": "add an item to my todo",
+        "output": "add"
+    },
+    {
+        "input": "how much ram is {application} using",
+        "output": "mem.usage.application"
+    },
+    {
+        "input": "how much mem is {application} using",
+        "output": "mem.usage.application"
+    },
+    {
+        "input": "how much memory is {application} using",
+        "output": "mem.usage.application"
+    },
+    {
+        "input": "ram of {application}",
+        "output": "mem.usage.application"
+    },
+    {
+        "input": "mem of {application}",
+        "output": "mem.usage.application"
+    },
+    {
+        "input": "memory of {application}",
+        "output": "mem.usage.application"
+    },
+    {
+        "input": "what ' s using all the cpu",
+        "output": "cpu.max.process"
+    },
+    {
+        "input": "what ' s using the cpu",
+        "output": "cpu.max.process"
+    },
+    {
+        "input": "what program is using up the cpu",
+        "output": "cpu.max.process"
+    },
+    {
+        "input": "what app is using up the cpu",
+        "output": "cpu.max.process"
+    },
+    {
+        "input": "what application is using up the cpu",
+        "output": "cpu.max.process"
+    },
+    {
+        "input": "what process is using up the cpu",
+        "output": "cpu.max.process"
+    },
+    {
+        "input": "what program is using all the cpu",
+        "output": "cpu.max.process"
+    },
+    {
+        "input": "what app is using all the cpu",
+        "output": "cpu.max.process"
+    },
+    {
+        "input": "what application is using all the cpu",
+        "output": "cpu.max.process"
+    },
+    {
+        "input": "what process is using all the cpu",
+        "output": "cpu.max.process"
+    },
+    {
+        "input": "top cpu process",
+        "output": "cpu.max.process"
+    },
+    {
+        "input": "max cpu process",
+        "output": "cpu.max.process"
+    },
+    {
+        "input": "what ' s using all the ram",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what ' s using the ram",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what ' s using all the mem",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what ' s using all the memory",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what ' s using the mem",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what ' s using the memory",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what program is using up all the ram",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what app is using up all the ram",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what application is using up all the ram",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what process is using up all the ram",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what program is using all the ram",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what app is using all the ram",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what application is using all the ram",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what process is using all the ram",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what program is using up the ram",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what app is using up the ram",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what application is using up the ram",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what process is using up the ram",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what program is using the ram",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what app is using the ram",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what application is using the ram",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what process is using the ram",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what program is using up all the mem",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what program is using up all the memory",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what app is using up all the mem",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what app is using up all the memory",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what application is using up all the mem",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what application is using up all the memory",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what process is using up all the mem",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what process is using up all the memory",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what program is using all the mem",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what program is using all the memory",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what app is using all the mem",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what app is using all the memory",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what application is using all the mem",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what application is using all the memory",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what process is using all the mem",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what process is using all the memory",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what program is using up the mem",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what program is using up the memory",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what app is using up the mem",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what app is using up the memory",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what application is using up the mem",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what application is using up the memory",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what process is using up the mem",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what process is using up the memory",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what program is using the mem",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what program is using the memory",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what app is using the mem",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what app is using the memory",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what application is using the mem",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what application is using the memory",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what process is using the mem",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "what process is using the memory",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "app using top ram",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "program using top ram",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "application using top ram",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "app with top ram",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "program with top ram",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "application with top ram",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "app using max ram",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "app using most ram",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "program using max ram",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "program using most ram",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "application using max ram",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "application using most ram",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "app with max ram",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "app with most ram",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "program with max ram",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "program with most ram",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "application with max ram",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "application with most ram",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "app using top mem",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "app using top memory",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "program using top mem",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "program using top memory",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "application using top mem",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "application using top memory",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "app with top mem",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "app with top memory",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "program with top mem",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "program with top memory",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "application with top mem",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "application with top memory",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "app using max mem",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "app using max memory",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "app using most mem",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "app using most memory",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "program using max mem",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "program using max memory",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "program using most mem",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "program using most memory",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "application using max mem",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "application using max memory",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "application using most mem",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "application using most memory",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "app with max mem",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "app with max memory",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "app with most mem",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "app with most memory",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "program with max mem",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "program with max memory",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "program with most mem",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "program with most memory",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "application with max mem",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "application with max memory",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "application with most mem",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "application with most memory",
+        "output": "mem.max.process"
+    },
+    {
+        "input": "total ram usage",
+        "output": "mem.used"
+    },
+    {
+        "input": "amount of ram usage",
+        "output": "mem.used"
+    },
+    {
+        "input": "ram usage",
+        "output": "mem.used"
+    },
+    {
+        "input": "total mem usage",
+        "output": "mem.used"
+    },
+    {
+        "input": "total memory usage",
+        "output": "mem.used"
+    },
+    {
+        "input": "amount of mem usage",
+        "output": "mem.used"
+    },
+    {
+        "input": "amount of memory usage",
+        "output": "mem.used"
+    },
+    {
+        "input": "mem usage",
+        "output": "mem.used"
+    },
+    {
+        "input": "memory usage",
+        "output": "mem.used"
+    },
+    {
+        "input": "how much ram is being used",
+        "output": "mem.used"
+    },
+    {
+        "input": "how much mem is being used",
+        "output": "mem.used"
+    },
+    {
+        "input": "how much memory is being used",
+        "output": "mem.used"
+    },
+    {
+        "input": "how much ram is used",
+        "output": "mem.used"
+    },
+    {
+        "input": "how much mem is used",
+        "output": "mem.used"
+    },
+    {
+        "input": "how much memory is used",
+        "output": "mem.used"
+    },
+    {
+        "input": "how much installed ram is there",
+        "output": "mem.total"
+    },
+    {
+        "input": "how much total ram is there",
+        "output": "mem.total"
+    },
+    {
+        "input": "how much installed mem is there",
+        "output": "mem.total"
+    },
+    {
+        "input": "how much installed memory is there",
+        "output": "mem.total"
+    },
+    {
+        "input": "how much total mem is there",
+        "output": "mem.total"
+    },
+    {
+        "input": "how much total memory is there",
+        "output": "mem.total"
+    },
+    {
+        "input": "how much installed ram do i have",
+        "output": "mem.total"
+    },
+    {
+        "input": "how much installed ram",
+        "output": "mem.total"
+    },
+    {
+        "input": "how much total ram do i have",
+        "output": "mem.total"
+    },
+    {
+        "input": "how much total ram",
+        "output": "mem.total"
+    },
+    {
+        "input": "how much installed mem do i have",
+        "output": "mem.total"
+    },
+    {
+        "input": "how much installed mem",
+        "output": "mem.total"
+    },
+    {
+        "input": "how much installed memory do i have",
+        "output": "mem.total"
+    },
+    {
+        "input": "how much installed memory",
+        "output": "mem.total"
+    },
+    {
+        "input": "how much total mem do i have",
+        "output": "mem.total"
+    },
+    {
+        "input": "how much total mem",
+        "output": "mem.total"
+    },
+    {
+        "input": "how much total memory do i have",
+        "output": "mem.total"
+    },
+    {
+        "input": "how much total memory",
+        "output": "mem.total"
+    },
+    {
+        "input": "amount of installed ram",
+        "output": "mem.total"
+    },
+    {
+        "input": "installed ram",
+        "output": "mem.total"
+    },
+    {
+        "input": "amount of total ram",
+        "output": "mem.total"
+    },
+    {
+        "input": "total ram",
+        "output": "mem.total"
+    },
+    {
+        "input": "amount of installed mem",
+        "output": "mem.total"
+    },
+    {
+        "input": "amount of installed memory",
+        "output": "mem.total"
+    },
+    {
+        "input": "installed mem",
+        "output": "mem.total"
+    },
+    {
+        "input": "installed memory",
+        "output": "mem.total"
+    },
+    {
+        "input": "amount of total mem",
+        "output": "mem.total"
+    },
+    {
+        "input": "amount of total memory",
+        "output": "mem.total"
+    },
+    {
+        "input": "total mem",
+        "output": "mem.total"
+    },
+    {
+        "input": "total memory",
+        "output": "mem.total"
+    },
+    {
+        "input": "how much free ram is there",
+        "output": "mem.free"
+    },
+    {
+        "input": "how much unused ram is there",
+        "output": "mem.free"
+    },
+    {
+        "input": "how much free mem is there",
+        "output": "mem.free"
+    },
+    {
+        "input": "how much free memory is there",
+        "output": "mem.free"
+    },
+    {
+        "input": "how much unused mem is there",
+        "output": "mem.free"
+    },
+    {
+        "input": "how much unused memory is there",
+        "output": "mem.free"
+    },
+    {
+        "input": "how much free ram do i have",
+        "output": "mem.free"
+    },
+    {
+        "input": "how much free ram",
+        "output": "mem.free"
+    },
+    {
+        "input": "how much unused ram do i have",
+        "output": "mem.free"
+    },
+    {
+        "input": "how much unused ram",
+        "output": "mem.free"
+    },
+    {
+        "input": "how much free mem do i have",
+        "output": "mem.free"
+    },
+    {
+        "input": "how much free mem",
+        "output": "mem.free"
+    },
+    {
+        "input": "how much free memory do i have",
+        "output": "mem.free"
+    },
+    {
+        "input": "how much free memory",
+        "output": "mem.free"
+    },
+    {
+        "input": "how much unused mem do i have",
+        "output": "mem.free"
+    },
+    {
+        "input": "how much unused mem",
+        "output": "mem.free"
+    },
+    {
+        "input": "how much unused memory do i have",
+        "output": "mem.free"
+    },
+    {
+        "input": "how much unused memory",
+        "output": "mem.free"
+    },
+    {
+        "input": "amount of free ram",
+        "output": "mem.free"
+    },
+    {
+        "input": "free ram",
+        "output": "mem.free"
+    },
+    {
+        "input": "amount of unused ram",
+        "output": "mem.free"
+    },
+    {
+        "input": "amount of available ram",
+        "output": "mem.free"
+    },
+    {
+        "input": "unused ram",
+        "output": "mem.free"
+    },
+    {
+        "input": "available ram",
+        "output": "mem.free"
+    },
+    {
+        "input": "amount of free mem",
+        "output": "mem.free"
+    },
+    {
+        "input": "amount of free memory",
+        "output": "mem.free"
+    },
+    {
+        "input": "free mem",
+        "output": "mem.free"
+    },
+    {
+        "input": "free memory",
+        "output": "mem.free"
+    },
+    {
+        "input": "amount of unused mem",
+        "output": "mem.free"
+    },
+    {
+        "input": "amount of unused memory",
+        "output": "mem.free"
+    },
+    {
+        "input": "amount of available mem",
+        "output": "mem.free"
+    },
+    {
+        "input": "amount of available memory",
+        "output": "mem.free"
+    },
+    {
+        "input": "unused mem",
+        "output": "mem.free"
+    },
+    {
+        "input": "unused memory",
+        "output": "mem.free"
+    },
+    {
+        "input": "available mem",
+        "output": "mem.free"
+    },
+    {
+        "input": "available memory",
+        "output": "mem.free"
+    },
+    {
+        "input": "what ' s the cpu use of {application}",
+        "output": "cpu.usage.application"
+    },
+    {
+        "input": "cpu use of {application}",
+        "output": "cpu.usage.application"
+    },
+    {
+        "input": "what ' s the cpu usage of {application}",
+        "output": "cpu.usage.application"
+    },
+    {
+        "input": "cpu usage of {application}",
+        "output": "cpu.usage.application"
+    },
+    {
+        "input": "how much cpu is {application} using",
+        "output": "cpu.usage.application"
+    },
+    {
+        "input": "processor usage of {application}",
+        "output": "cpu.usage.application"
+    },
+    {
+        "input": "cpu use of {application}",
+        "output": "cpu.usage.application"
+    },
+    {
+        "input": "{application} cpu usage",
+        "output": "cpu.usage.application"
+    },
+    {
+        "input": "{application} cpu use",
+        "output": "cpu.usage.application"
+    },
+    {
+        "input": "{application} how much cpu usage",
+        "output": "cpu.usage.application"
+    },
+    {
+        "input": "{application} how much cpu use",
+        "output": "cpu.usage.application"
+    },
+    {
+        "input": "{application} how much cpu",
+        "output": "cpu.usage.application"
+    },
+    {
+        "input": "what ' s the cpu usage",
+        "output": "cpu.total.usage"
+    },
+    {
+        "input": "current cpu usage",
+        "output": "cpu.total.usage"
+    },
+    {
+        "input": "cpu usage",
+        "output": "cpu.total.usage"
+    },
+    {
+        "input": "what ' s the cpu utilization",
+        "output": "cpu.total.usage"
+    },
+    {
+        "input": "current cpu utilization",
+        "output": "cpu.total.usage"
+    },
+    {
+        "input": "cpu utilization",
+        "output": "cpu.total.usage"
+    },
+    {
+        "input": "how much cpu is being used",
+        "output": "cpu.total.usage"
+    },
+    {
+        "input": "how much cpu is used",
+        "output": "cpu.total.usage"
+    },
+    {
+        "input": "cpu used",
+        "output": "cpu.total.usage"
+    },
+    {
+        "input": "tell me a joke",
+        "output": "joke"
+    },
+    {
+        "input": "make me laugh",
+        "output": "joke"
+    },
+    {
+        "input": "brighten my day",
+        "output": "joke"
+    },
+    {
+        "input": "can you tell me a good joke",
+        "output": "joke"
+    },
+    {
+        "input": "what ' s a good joke",
+        "output": "joke"
+    },
+    {
+        "input": "how to do {action} in c",
+        "output": "ask"
+    },
+    {
+        "input": "how to do {action} using c",
+        "output": "ask"
+    },
+    {
+        "input": "how to do {action} with c",
+        "output": "ask"
+    },
+    {
+        "input": "how to do {action} in c + +",
+        "output": "ask"
+    },
+    {
+        "input": "how to do {action} in python",
+        "output": "ask"
+    },
+    {
+        "input": "how to do {action} in java",
+        "output": "ask"
+    },
+    {
+        "input": "how to do {action} using c + +",
+        "output": "ask"
+    },
+    {
+        "input": "how to do {action} using python",
+        "output": "ask"
+    },
+    {
+        "input": "how to do {action} using java",
+        "output": "ask"
+    },
+    {
+        "input": "how to do {action} with c + +",
+        "output": "ask"
+    },
+    {
+        "input": "how to do {action} with python",
+        "output": "ask"
+    },
+    {
+        "input": "how to do {action} with java",
+        "output": "ask"
+    },
+    {
+        "input": "how to {action} in c",
+        "output": "ask"
+    },
+    {
+        "input": "how to {action} using c",
+        "output": "ask"
+    },
+    {
+        "input": "how to {action} with c",
+        "output": "ask"
+    },
+    {
+        "input": "how to {action} c",
+        "output": "ask"
+    },
+    {
+        "input": "how to {action} in c + +",
+        "output": "ask"
+    },
+    {
+        "input": "how to {action} in python",
+        "output": "ask"
+    },
+    {
+        "input": "how to {action} in java",
+        "output": "ask"
+    },
+    {
+        "input": "how to {action} using c + +",
+        "output": "ask"
+    },
+    {
+        "input": "how to {action} using python",
+        "output": "ask"
+    },
+    {
+        "input": "how to {action} using java",
+        "output": "ask"
+    },
+    {
+        "input": "how to {action} with c + +",
+        "output": "ask"
+    },
+    {
+        "input": "how to {action} with python",
+        "output": "ask"
+    },
+    {
+        "input": "how to {action} with java",
+        "output": "ask"
+    },
+    {
+        "input": "how to {action} c + +",
+        "output": "ask"
+    },
+    {
+        "input": "how to {action} python",
+        "output": "ask"
+    },
+    {
+        "input": "how to {action} java",
+        "output": "ask"
+    },
+    {
+        "input": "{action} in c",
+        "output": "ask"
+    },
+    {
+        "input": "{action} using c",
+        "output": "ask"
+    },
+    {
+        "input": "{action} with c",
+        "output": "ask"
+    },
+    {
+        "input": "{action} in c + +",
+        "output": "ask"
+    },
+    {
+        "input": "{action} in python",
+        "output": "ask"
+    },
+    {
+        "input": "{action} in java",
+        "output": "ask"
+    },
+    {
+        "input": "{action} using c + +",
+        "output": "ask"
+    },
+    {
+        "input": "{action} using python",
+        "output": "ask"
+    },
+    {
+        "input": "{action} using java",
+        "output": "ask"
+    },
+    {
+        "input": "{action} with c + +",
+        "output": "ask"
+    },
+    {
+        "input": "{action} with python",
+        "output": "ask"
+    },
+    {
+        "input": "{action} with java",
+        "output": "ask"
+    },
+    {
+        "input": "c how to {action}",
+        "output": "ask"
+    },
+    {
+        "input": "c + + how to {action}",
+        "output": "ask"
+    },
+    {
+        "input": "python how to {action}",
+        "output": "ask"
+    },
+    {
+        "input": "java how to {action}",
+        "output": "ask"
+    },
+    {
+        "input": "c how to do {action}",
+        "output": "ask"
+    },
+    {
+        "input": "c + + how to do {action}",
+        "output": "ask"
+    },
+    {
+        "input": "python how to do {action}",
+        "output": "ask"
+    },
+    {
+        "input": "java how to do {action}",
+        "output": "ask"
+    },
+    {
+        "input": "pair my device",
+        "output": "pair"
+    },
+    {
+        "input": "repair my device",
+        "output": "pair"
+    },
+    {
+        "input": "re-pair my device",
+        "output": "pair"
+    },
+    {
+        "input": "pair my device again",
+        "output": "pair"
+    },
+    {
+        "input": "setup my device again",
+        "output": "pair"
+    },
+    {
+        "input": "cancel alarm",
+        "output": "alarm.stop"
+    },
+    {
+        "input": "remove alarm",
+        "output": "alarm.stop"
+    },
+    {
+        "input": "disable alarm",
+        "output": "alarm.stop"
+    },
+    {
+        "input": "stop alarm",
+        "output": "alarm.stop"
+    },
+    {
+        "input": "deactivate alarm",
+        "output": "alarm.stop"
+    },
+    {
+        "input": "turn off alarm",
+        "output": "alarm.stop"
+    },
+    {
+        "input": "cancel the alarm",
+        "output": "alarm.stop"
+    },
+    {
+        "input": "remove the alarm",
+        "output": "alarm.stop"
+    },
+    {
+        "input": "disable the alarm",
+        "output": "alarm.stop"
+    },
+    {
+        "input": "stop the alarm",
+        "output": "alarm.stop"
+    },
+    {
+        "input": "deactivate the alarm",
+        "output": "alarm.stop"
+    },
+    {
+        "input": "turn off the alarm",
+        "output": "alarm.stop"
+    },
+    {
+        "input": "cancel my alarm",
+        "output": "alarm.stop"
+    },
+    {
+        "input": "remove my alarm",
+        "output": "alarm.stop"
+    },
+    {
+        "input": "disable my alarm",
+        "output": "alarm.stop"
+    },
+    {
+        "input": "stop my alarm",
+        "output": "alarm.stop"
+    },
+    {
+        "input": "deactivate my alarm",
+        "output": "alarm.stop"
+    },
+    {
+        "input": "turn off my alarm",
+        "output": "alarm.stop"
+    },
+    {
+        "input": "set an alarm for {time} to {action}",
+        "output": "alarm.set"
+    },
+    {
+        "input": "create an alarm for {time} to {action}",
+        "output": "alarm.set"
+    },
+    {
+        "input": "set an alarm for {time}",
+        "output": "alarm.set"
+    },
+    {
+        "input": "create an alarm for {time}",
+        "output": "alarm.set"
+    },
+    {
+        "input": "set alarm for {time} to {action}",
+        "output": "alarm.set"
+    },
+    {
+        "input": "create alarm for {time} to {action}",
+        "output": "alarm.set"
+    },
+    {
+        "input": "set alarm for {time}",
+        "output": "alarm.set"
+    },
+    {
+        "input": "create alarm for {time}",
+        "output": "alarm.set"
+    },
+    {
+        "input": "remove alarm",
+        "output": "alarm.remove"
+    },
+    {
+        "input": "disable alarm",
+        "output": "alarm.remove"
+    },
+    {
+        "input": "remove alarm",
+        "output": "alarm.remove"
+    },
+    {
+        "input": "deactivate alarm",
+        "output": "alarm.remove"
+    },
+    {
+        "input": "turn off alarm",
+        "output": "alarm.remove"
+    },
+    {
+        "input": "remove the alarm",
+        "output": "alarm.remove"
+    },
+    {
+        "input": "disable the alarm",
+        "output": "alarm.remove"
+    },
+    {
+        "input": "remove the alarm",
+        "output": "alarm.remove"
+    },
+    {
+        "input": "deactivate the alarm",
+        "output": "alarm.remove"
+    },
+    {
+        "input": "turn off the alarm",
+        "output": "alarm.remove"
+    },
+    {
+        "input": "remove my alarm",
+        "output": "alarm.remove"
+    },
+    {
+        "input": "disable my alarm",
+        "output": "alarm.remove"
+    },
+    {
+        "input": "remove my alarm",
+        "output": "alarm.remove"
+    },
+    {
+        "input": "deactivate my alarm",
+        "output": "alarm.remove"
+    },
+    {
+        "input": "turn off my alarm",
+        "output": "alarm.remove"
+    },
+    {
+        "input": "remove alarms",
+        "output": "alarm.remove"
+    },
+    {
+        "input": "disable alarms",
+        "output": "alarm.remove"
+    },
+    {
+        "input": "remove alarms",
+        "output": "alarm.remove"
+    },
+    {
+        "input": "deactivate alarms",
+        "output": "alarm.remove"
+    },
+    {
+        "input": "turn off alarms",
+        "output": "alarm.remove"
+    },
+    {
+        "input": "remove the alarms",
+        "output": "alarm.remove"
+    },
+    {
+        "input": "disable the alarms",
+        "output": "alarm.remove"
+    },
+    {
+        "input": "remove the alarms",
+        "output": "alarm.remove"
+    },
+    {
+        "input": "deactivate the alarms",
+        "output": "alarm.remove"
+    },
+    {
+        "input": "turn off the alarms",
+        "output": "alarm.remove"
+    },
+    {
+        "input": "remove my alarms",
+        "output": "alarm.remove"
+    },
+    {
+        "input": "disable my alarms",
+        "output": "alarm.remove"
+    },
+    {
+        "input": "remove my alarms",
+        "output": "alarm.remove"
+    },
+    {
+        "input": "deactivate my alarms",
+        "output": "alarm.remove"
+    },
+    {
+        "input": "turn off my alarms",
+        "output": "alarm.remove"
+    },
+    {
+        "input": "remove all alarms",
+        "output": "alarm.remove"
+    },
+    {
+        "input": "disable all alarms",
+        "output": "alarm.remove"
+    },
+    {
+        "input": "remove all alarms",
+        "output": "alarm.remove"
+    },
+    {
+        "input": "deactivate all alarms",
+        "output": "alarm.remove"
+    },
+    {
+        "input": "turn off all alarms",
+        "output": "alarm.remove"
+    },
+    {
+        "input": "what alarms are set",
+        "output": "alarm.list"
+    },
+    {
+        "input": "what alarms do i have",
+        "output": "alarm.list"
+    },
+    {
+        "input": "what are the alarms",
+        "output": "alarm.list"
+    },
+    {
+        "input": "what are your alarms",
+        "output": "alarm.list"
+    },
+    {
+        "input": "do i have an alarm",
+        "output": "alarm.list"
+    },
+    {
+        "input": "is an alarm set",
+        "output": "alarm.list"
+    },
+    {
+        "input": "list alarms",
+        "output": "alarm.list"
+    },
+    {
+        "input": "find alarms",
+        "output": "alarm.list"
+    },
+    {
+        "input": "get alarms",
+        "output": "alarm.list"
+    },
+    {
+        "input": "list all alarms",
+        "output": "alarm.list"
+    },
+    {
+        "input": "find all alarms",
+        "output": "alarm.list"
+    },
+    {
+        "input": "get all alarms",
+        "output": "alarm.list"
+    },
+    {
+        "input": "tell me my alarms",
+        "output": "alarm.list"
+    },
+    {
+        "input": "what are the alarms",
+        "output": "alarm.list"
+    },
+    {
+        "input": "what alarms are set",
+        "output": "alarm.list"
+    },
+    {
+        "input": "list available alarms",
+        "output": "alarm.list"
+    },
+    {
+        "input": "what ' s alarms are there",
+        "output": "alarm.list"
+    },
+    {
+        "input": "when ' s the next alarm",
+        "output": "alarm.list"
+    },
+    {
+        "input": "what time is the next alarm",
+        "output": "alarm.list"
+    },
+    {
+        "input": "when are the alarms set for",
+        "output": "alarm.list"
+    },
+    {
+        "input": "what ' s my ip address",
+        "output": "ip"
+    },
+    {
+        "input": "what ' s my ip",
+        "output": "ip"
+    },
+    {
+        "input": "what ' s your ip address",
+        "output": "ip"
+    },
+    {
+        "input": "what ' s your ip",
+        "output": "ip"
+    },
+    {
+        "input": "what ' s the ip address",
+        "output": "ip"
+    },
+    {
+        "input": "what ' s the ip",
+        "output": "ip"
+    },
+    {
+        "input": "ip",
+        "output": "ip"
+    },
+    {
+        "input": "start an audio recording",
+        "output": "record.begin"
+    },
+    {
+        "input": "record audio for {duration}",
+        "output": "record.begin"
+    },
+    {
+        "input": "begin audio recording",
+        "output": "record.begin"
+    },
+    {
+        "input": "record me for {duration}",
+        "output": "record.begin"
+    },
+    {
+        "input": "start recording",
+        "output": "record.begin"
+    },
+    {
+        "input": "start recording for {duration}",
+        "output": "record.begin"
+    },
+    {
+        "input": "record for {duration}",
+        "output": "record.begin"
+    },
+    {
+        "input": "begin recording for {duration}",
+        "output": "record.begin"
+    },
+    {
+        "input": "start an audio recording",
+        "output": "record.begin"
+    },
+    {
+        "input": "record audio",
+        "output": "record.begin"
+    },
+    {
+        "input": "record audio for {duration}",
+        "output": "record.begin"
+    },
+    {
+        "input": "stop playing the recording",
+        "output": "playback.end"
+    },
+    {
+        "input": "stop audio playback",
+        "output": "playback.end"
+    },
+    {
+        "input": "end the audio playback",
+        "output": "playback.end"
+    },
+    {
+        "input": "stop playing audio",
+        "output": "playback.end"
+    },
+    {
+        "input": "stop audio",
+        "output": "playback.end"
+    },
+    {
+        "input": "stop recording",
+        "output": "playback.end"
+    },
+    {
+        "input": "end audio",
+        "output": "playback.end"
+    },
+    {
+        "input": "end recording",
+        "output": "playback.end"
+    },
+    {
+        "input": "play the recording",
+        "output": "playback.begin"
+    },
+    {
+        "input": "playback the saved audio",
+        "output": "playback.begin"
+    },
+    {
+        "input": "play me the recorded audio",
+        "output": "playback.begin"
+    },
+    {
+        "input": "start playback of recording",
+        "output": "playback.begin"
+    },
+    {
+        "input": "play recording",
+        "output": "playback.begin"
+    },
+    {
+        "input": "play the audio recording",
+        "output": "playback.begin"
+    },
+    {
+        "input": "start the audio recording",
+        "output": "playback.begin"
+    },
+    {
+        "input": "play back audio",
+        "output": "playback.begin"
+    },
+    {
+        "input": "playback audio",
+        "output": "playback.begin"
+    },
+    {
+        "input": "stop recording me",
+        "output": "record.end"
+    },
+    {
+        "input": "stop the recording",
+        "output": "record.end"
+    },
+    {
+        "input": "end the recording",
+        "output": "record.end"
+    },
+    {
+        "input": "stop audio recording",
+        "output": "record.end"
+    },
+    {
+        "input": "stop recording",
+        "output": "record.end"
+    },
+    {
+        "input": "end recording",
+        "output": "record.end"
+    },
+    {
+        "input": "say {words}",
+        "output": "say"
+    },
+    {
+        "input": "say the word {words}",
+        "output": "say"
+    },
+    {
+        "input": "say the phrase {words}",
+        "output": "say"
+    },
+    {
+        "input": "repeat {words}",
+        "output": "say"
+    },
+    {
+        "input": "repeat the word {words}",
+        "output": "say"
+    },
+    {
+        "input": "repeat the phrase {words}",
+        "output": "say"
+    },
+    {
+        "input": "update the intent cache for {skill}",
+        "output": "update"
+    },
+    {
+        "input": "refresh the intent cache for {skill}",
+        "output": "update"
+    },
+    {
+        "input": "regenerate the intent cache for {skill}",
+        "output": "update"
+    },
+    {
+        "input": "update {skill} ' s intent cache",
+        "output": "update"
+    },
+    {
+        "input": "refresh {skill} ' s intent cache",
+        "output": "update"
+    },
+    {
+        "input": "regenerate {skill} ' s intent cache",
+        "output": "update"
+    },
+    {
+        "input": "update {skill} intent cache",
+        "output": "update"
+    },
+    {
+        "input": "refresh {skill} intent cache",
+        "output": "update"
+    },
+    {
+        "input": "regenerate {skill} intent cache",
+        "output": "update"
+    },
+    {
+        "input": "update all intents",
+        "output": "update.all"
+    },
+    {
+        "input": "refresh all intents",
+        "output": "update.all"
+    },
+    {
+        "input": "regenerate all intents",
+        "output": "update.all"
+    },
+    {
+        "input": "update all intent cache",
+        "output": "update.all"
+    },
+    {
+        "input": "update all intent caches",
+        "output": "update.all"
+    },
+    {
+        "input": "refresh all intent cache",
+        "output": "update.all"
+    },
+    {
+        "input": "refresh all intent caches",
+        "output": "update.all"
+    },
+    {
+        "input": "regenerate all intent cache",
+        "output": "update.all"
+    },
+    {
+        "input": "regenerate all intent caches",
+        "output": "update.all"
+    },
+    {
+        "input": "hello",
+        "output": "greet"
+    },
+    {
+        "input": "hi there",
+        "output": "greet"
+    },
+    {
+        "input": "hi",
+        "output": "greet"
+    },
+    {
+        "input": "greetings",
+        "output": "greet"
+    },
+    {
+        "input": "what ' s your name",
+        "output": "whats.your.name"
+    },
+    {
+        "input": "what are you called",
+        "output": "whats.your.name"
+    },
+    {
+        "input": "what do i call you",
+        "output": "whats.your.name"
+    },
+    {
+        "input": "what can i call you",
+        "output": "whats.your.name"
+    },
+    {
+        "input": "what do you call yourself",
+        "output": "whats.your.name"
+    },
+    {
+        "input": "how are you",
+        "output": "how.are.you"
+    },
+    {
+        "input": "are you alright",
+        "output": "how.are.you"
+    },
+    {
+        "input": "are you okay",
+        "output": "how.are.you"
+    },
+    {
+        "input": "how are you doing today",
+        "output": "how.are.you"
+    },
+    {
+        "input": "how are you doing",
+        "output": "how.are.you"
+    },
+    {
+        "input": "who are you",
+        "output": "who.are.you"
+    },
+    {
+        "input": "what are you",
+        "output": "who.are.you"
+    },
+    {
+        "input": "what up",
+        "output": "whats.up"
+    },
+    {
+        "input": "what ' s up",
+        "output": "whats.up"
+    },
+    {
+        "input": "what ' s going on",
+        "output": "whats.up"
+    },
+    {
+        "input": "what ' s happening",
+        "output": "whats.up"
+    },
+    {
+        "input": "how ' s it going",
+        "output": "hows.it.going"
+    },
+    {
+        "input": "how ' s your life",
+        "output": "hows.it.going"
+    },
+    {
+        "input": "fuck you",
+        "output": "piss.off.harsh"
+    },
+    {
+        "input": "f you",
+        "output": "piss.off.harsh"
+    },
+    {
+        "input": "fu",
+        "output": "piss.off.harsh"
+    },
+    {
+        "input": "f * * * you",
+        "output": "piss.off.harsh"
+    },
+    {
+        "input": "you ' re a cunt",
+        "output": "piss.off.harsh"
+    },
+    {
+        "input": "you fucking idiot",
+        "output": "piss.off.harsh"
+    },
+    {
+        "input": "get the hell out of here",
+        "output": "piss.off.harsh"
+    },
+    {
+        "input": "you ' re a bitch",
+        "output": "piss.off.harsh"
+    },
+    {
+        "input": "you ' re a b * * * *",
+        "output": "piss.off.harsh"
+    },
+    {
+        "input": "you fucker",
+        "output": "piss.off.harsh"
+    },
+    {
+        "input": "you f * * * * *",
+        "output": "piss.off.harsh"
+    },
+    {
+        "input": "you little fucker",
+        "output": "piss.off.harsh"
+    },
+    {
+        "input": "b * * * *",
+        "output": "piss.off.harsh"
+    },
+    {
+        "input": "bitch",
+        "output": "piss.off.harsh"
+    },
+    {
+        "input": "i hate you",
+        "output": "piss.off.mild"
+    },
+    {
+        "input": "you ' re stupid",
+        "output": "piss.off.mild"
+    },
+    {
+        "input": "you stupid {thing}",
+        "output": "piss.off.mild"
+    },
+    {
+        "input": "you ' re a stupid {thing}",
+        "output": "piss.off.mild"
+    },
+    {
+        "input": "you ' re a fucking {thing}",
+        "output": "piss.off.mild"
+    },
+    {
+        "input": "you fucking {thing}",
+        "output": "piss.off.mild"
+    },
+    {
+        "input": "you goddamn {thing}",
+        "output": "piss.off.mild"
+    },
+    {
+        "input": "you ' re a goddamn {thing}",
+        "output": "piss.off.mild"
+    },
+    {
+        "input": "you ' re an idiot",
+        "output": "piss.off.mild"
+    },
+    {
+        "input": "get out of here",
+        "output": "piss.off.mild"
+    },
+    {
+        "input": "open {path} in ( a file manager | )",
+        "output": "open.path"
+    },
+    {
+        "input": "open {path} file manager | )",
+        "output": "open.path"
+    },
+    {
+        "input": "open a file manager to {path}",
+        "output": "open.path"
+    },
+    {
+        "input": "launch a file manager to {path}",
+        "output": "open.path"
+    },
+    {
+        "input": "start a file manager to {path}",
+        "output": "open.path"
+    },
+    {
+        "input": "open file manager to {path}",
+        "output": "open.path"
+    },
+    {
+        "input": "launch file manager to {path}",
+        "output": "open.path"
+    },
+    {
+        "input": "start file manager to {path}",
+        "output": "open.path"
+    },
+    {
+        "input": "open a file manager in {path}",
+        "output": "open.path"
+    },
+    {
+        "input": "launch a file manager in {path}",
+        "output": "open.path"
+    },
+    {
+        "input": "start a file manager in {path}",
+        "output": "open.path"
+    },
+    {
+        "input": "open file manager in {path}",
+        "output": "open.path"
+    },
+    {
+        "input": "launch file manager in {path}",
+        "output": "open.path"
+    },
+    {
+        "input": "start file manager in {path}",
+        "output": "open.path"
+    },
+    {
+        "input": "open {place} ' s dir in ( a file manager | )",
+        "output": "open.place"
+    },
+    {
+        "input": "open {place} dir in ( a file manager | )",
+        "output": "open.place"
+    },
+    {
+        "input": "open {place} ' s directory in ( a file manager | )",
+        "output": "open.place"
+    },
+    {
+        "input": "open {place} ' s folder in ( a file manager | )",
+        "output": "open.place"
+    },
+    {
+        "input": "open {place} ' s in ( a file manager | )",
+        "output": "open.place"
+    },
+    {
+        "input": "open {place} directory in ( a file manager | )",
+        "output": "open.place"
+    },
+    {
+        "input": "open {place} folder in ( a file manager | )",
+        "output": "open.place"
+    },
+    {
+        "input": "open {place} in ( a file manager | )",
+        "output": "open.place"
+    },
+    {
+        "input": "open {place} ' s dir file manager | )",
+        "output": "open.place"
+    },
+    {
+        "input": "open {place} dir file manager | )",
+        "output": "open.place"
+    },
+    {
+        "input": "open {place} ' s directory file manager | )",
+        "output": "open.place"
+    },
+    {
+        "input": "open {place} ' s folder file manager | )",
+        "output": "open.place"
+    },
+    {
+        "input": "open {place} ' s file manager | )",
+        "output": "open.place"
+    },
+    {
+        "input": "open {place} directory file manager | )",
+        "output": "open.place"
+    },
+    {
+        "input": "open {place} folder file manager | )",
+        "output": "open.place"
+    },
+    {
+        "input": "open {place} file manager | )",
+        "output": "open.place"
+    },
+    {
+        "input": "open the dir of {place}",
+        "output": "open.place"
+    },
+    {
+        "input": "open dir of {place}",
+        "output": "open.place"
+    },
+    {
+        "input": "open the directory of {place}",
+        "output": "open.place"
+    },
+    {
+        "input": "open the folder of {place}",
+        "output": "open.place"
+    },
+    {
+        "input": "open the of {place}",
+        "output": "open.place"
+    },
+    {
+        "input": "open directory of {place}",
+        "output": "open.place"
+    },
+    {
+        "input": "open folder of {place}",
+        "output": "open.place"
+    },
+    {
+        "input": "open of {place}",
+        "output": "open.place"
+    },
+    {
+        "input": "open the dir for {place}",
+        "output": "open.place"
+    },
+    {
+        "input": "open the dir {place}",
+        "output": "open.place"
+    },
+    {
+        "input": "open dir for {place}",
+        "output": "open.place"
+    },
+    {
+        "input": "open dir {place}",
+        "output": "open.place"
+    },
+    {
+        "input": "open the directory for {place}",
+        "output": "open.place"
+    },
+    {
+        "input": "open the directory {place}",
+        "output": "open.place"
+    },
+    {
+        "input": "open the folder for {place}",
+        "output": "open.place"
+    },
+    {
+        "input": "open the folder {place}",
+        "output": "open.place"
+    },
+    {
+        "input": "open the for {place}",
+        "output": "open.place"
+    },
+    {
+        "input": "open the {place}",
+        "output": "open.place"
+    },
+    {
+        "input": "open directory for {place}",
+        "output": "open.place"
+    },
+    {
+        "input": "open directory {place}",
+        "output": "open.place"
+    },
+    {
+        "input": "open folder for {place}",
+        "output": "open.place"
+    },
+    {
+        "input": "open folder {place}",
+        "output": "open.place"
+    },
+    {
+        "input": "open for {place}",
+        "output": "open.place"
+    },
+    {
+        "input": "open {place}",
+        "output": "open.place"
+    },
+    {
+        "input": "open a file manager to {place}",
+        "output": "open.place"
+    },
+    {
+        "input": "launch a file manager to {place}",
+        "output": "open.place"
+    },
+    {
+        "input": "start a file manager to {place}",
+        "output": "open.place"
+    },
+    {
+        "input": "open file manager to {place}",
+        "output": "open.place"
+    },
+    {
+        "input": "launch file manager to {place}",
+        "output": "open.place"
+    },
+    {
+        "input": "start file manager to {place}",
+        "output": "open.place"
+    },
+    {
+        "input": "open a file manager in {place}",
+        "output": "open.place"
+    },
+    {
+        "input": "launch a file manager in {place}",
+        "output": "open.place"
+    },
+    {
+        "input": "start a file manager in {place}",
+        "output": "open.place"
+    },
+    {
+        "input": "open file manager in {place}",
+        "output": "open.place"
+    },
+    {
+        "input": "launch file manager in {place}",
+        "output": "open.place"
+    },
+    {
+        "input": "start file manager in {place}",
+        "output": "open.place"
+    }
+]
