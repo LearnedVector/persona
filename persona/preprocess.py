@@ -132,6 +132,8 @@ def integer_encode(sequences, word_model, seq_len):
     encoded_list = np.zeros((len(sequences), seq_len))
     for i, seq in enumerate(sequences):
         for j, word in enumerate(seq):
+            if word not in word_model.word2index:
+                word = UNK
             encoded_list[i, j] = word_model.word2index[word]
     return encoded_list
 
