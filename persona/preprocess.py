@@ -90,6 +90,7 @@ def prepare_json_data(_input, _output, filename, max_length=15):
         Returns:
             input_word_model (WordModel): object containing input defintiions
             output_word_model (WordModel): object containing output definitions
+            pairs (list<str>): [input, output] sentences
     """
     global MAX_LENGTH
     MAX_LENGTH = max_length
