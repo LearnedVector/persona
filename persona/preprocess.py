@@ -5,6 +5,8 @@ import string
 import re
 import json
 
+from padatious.util import tokenize
+
 PAD = "PAD"
 SOS = "SOS"
 EOS = "EOS"
@@ -42,11 +44,7 @@ def unicode_to_ascii(s):
 
 def normalize_string(s):
     s = unicode_to_ascii(s.lower().rstrip())
-    s = re.sub(r"([!?])", r" \1", s)
-    s = re.sub(r"[^a-zA-Z.=!?{}:]+", r" ", s)
-    if s[-1] == ".":
-        s = s[:-1]+" ."
-    return s
+    return ' '.join(tokenize(s))
 
 
 def filter_pair(p):
@@ -150,11 +148,18 @@ def one_hot_encode(sequences, word_model, seq_len):
     return one_hot
 
 
-def one_hot_encode_target(sequences, word_model, seq_len):
-    """" encode target with an offset of 1 for decoder in seq2seq """
-    one_hot = np.zeros((len(sequences), seq_len, word_model.n_words))
-    for i, seq in enumerate(sequences):
-        for j, word in enumerate(seq):
-            if word != PAD and j > 0:
-                one_hot[i, j-1, word_model.word2index[word]] = 1
-    return one_hot
+def probs_to_sent(word_probs, index2word):
+    """Convert a 2D array of probabilities to words"""
+    words, confidences = [], []
+    for word_probs in word_probs:
+        sampled_token_index = np.argmax(word_probs)
+        word = index2word[sampled_token_index]
+        if word == 'EOS':
+            break
+        confidences.append(word_probs[sampled_token_index])
+        words.append(word)
+
+    if len(words) == 0:
+        return '', 0.0
+
+    return ' '.join(words), sum(confidences) / len(confidences)

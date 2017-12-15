@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import sys
-sys.path += ['.']  # qa
+sys.path += ['.']  # noqa
 
 from persona.preprocess import prepare_json_data, pad_sequences, one_hot_encode
 
@@ -21,7 +21,7 @@ from persona.intent.model import IntentModel
 
 model = IntentModel("onehot")
 model = model(one_hot_input, one_hot_output, input_word_model.n_words, output_word_model.n_words)
-model.train(summary=True)
+model.fit(summary=True)
 
 from persona.preprocess import pad_sequence
 
